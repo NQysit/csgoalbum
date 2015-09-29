@@ -1,0 +1,9 @@
+#katowice2014
+;legends
+:name:url
+:name:url
+:
+;challengers
+;lengendesholo
+;challengersholo
+;esl
