@@ -14,7 +14,7 @@ body {
     text-align: right;
 }
 
-.translucid {
+.sticker-translucid {
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 } 
@@ -23,4 +23,18 @@ body {
   color: #333;
   background-color: #f5f5f5;
   border-color: #ddd;
+}
+
+.sticker {
+    display: inline-block;
+    width: 94px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sticker-img-test{
+    background-image: url(http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYQkrFeOesx9zGX1g7MApetbW3JTho3P_HP2lDvonuxIGJlq-nYurSxTtQ6sYp3b-Y8Nn32ADkrhA5Ym-iLdCSI1QgIQaH4MkIbGw/95x95);
+    background-repeat: no-repeat;
+    background-position: center; 
 }

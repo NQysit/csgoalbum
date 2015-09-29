@@ -5,7 +5,7 @@
         <title>CS:GO album</title>
         <meta name="author" content="@NQysit">
         <meta name="description" content="Check how far you are from completing your CS:GO sticker album.">
-        <meta name="keywords" content="Counter-Strike,CSGO,CS:GO,sticker,steammarket,nqysit">
+        <meta name="keywords" content="Counter-Strike,CSGO,CS:GO,sticker,album,steammarket,nqysit">
     
         <!-- styles -->
         <link href="assets/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -14,7 +14,7 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     
-    <body>
+    <body onload="onLoad()">
         <div class="navbar navbar-fixed-top navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
@@ -39,25 +39,27 @@
             <div class="page-header">
                 <h1>CS:GO album</h1>
             </div>
-        
-            <!-- profile -->
-            <div class="row container">                
-                <form class="form-inline">
-                    <div class="input-group ">
-                        <span class="input-group-addon"><i class="fa fa-steam"></i></span>
-                        <input type="text" class="form-control" id="inputSteamID" placeholder="SteamID">                              
-                        <a class="btn btn-inverse input-group-addon"><i class="fa fa-user"></i> Fetch</a>
-                    </div>
-                </form>
-                <small>Import your profile</small>
-            </div>
             
-            <br />
-            
-            <div class="row">
+            <div class="row">             
                 
-                <!-- category list -->
-                <div class="col-sm-3">
+                <!-- left column -->
+                <div class="col-sm-3">      
+                       
+                    <!-- profile -->
+                    <div class="row container">                
+                        <form class="form-inline" action="#" onsubmit="checkFormSteamID()">
+                            <div class="input-group ">
+                                <span class="input-group-addon"><i class="fa fa-steam"></i></span>
+                                <input type="text" class="form-control" id="inputSteamID" placeholder="SteamID">                              
+                                <a class="btn btn-inverse input-group-addon" href="#" onclick="checkFormSteamID()"><i class="fa fa-user"></i> Fetch</a>
+                            </div>
+                        </form>
+                        <small>Import your profile</small>
+                    </div>
+                    
+                    <br />
+                    
+                    <!-- category list -->
                     <div class="list-group">
                         <a href="#" class="list-group-item currentcategory">
                             Katowice 2014
@@ -83,8 +85,10 @@
                     </div>
                 </div>
                 
-                <!-- stickers -->
+                <!-- right column -->
                 <div class="col-sm-9">
+                    
+                    <!-- stickers -->
                     <div class="col-sm-12">
                         <div class="mkg panel panel-default">
                             <div class="panel-heading">
@@ -127,14 +131,23 @@
                                     </fieldset>
                                 </form>
                                 
-                                <form class="form-horizontal ng-pristine ng-valid">
+                                 <form class="form-horizontal ng-pristine ng-valid">
                                     <fieldset>
                                         <legend>
                                             ESL
                                             <span class="badge">0/2</span>
                                         </legend>
-										<img src="http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYQV_bRvCiwMbQVg8kdFAYobWpLThz2ObEfQJH_9CJko-Cm8j4MqnWkyVTu5An2ryQpdyijgzmqBBuYTvxIYbAc1RrN1CD_FPrwezpgpO56ZjM1zI97VCLs1zd/90fx90f" class="translucid">
-                                        <img src="http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYQV_bRvCiwMbQVg8kdFAYobWpLThlwP_3dzJL4OO6lZKMkrmgar-GkjkJ7pNw2LGX8Y3x3QWyqkFqZW6icIOWIQE-MgzW-lC3ybq7m9bi661nEL9o/90fx90f" class="translucid">                                       
+                                    </fieldset>
+                                </form>
+                                
+                                 <form class="form-horizontal ng-pristine ng-valid">
+                                    <fieldset id="fieldtest">
+                                        <legend>
+                                            Test
+                                            <span class="badge">0/16</span>
+                                        </legend>
+                                        
+                                        
                                     </fieldset>
                                 </form>
                 
@@ -147,7 +160,7 @@
             <!-- version -->
             <div class="row">
                 <div class="version">
-                    <code>v 0.0.1</code>
+                    <a href="changelog.html"><code><span id="spanCurrentVersion"></span></code></a>
                 </div>
             </div>
         
@@ -162,8 +175,10 @@
         
         <!-- scripts -->
         <script src="assets/jquery-2.1.4/jquery.min.js" type="text/javascript"></script>
-        <script src="assets/bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript"></script>        
-        <script src="js/csgoalbum.js" type="text/javascript"></script>
+        <script src="assets/bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript"></script>  
+        <script src="assets/stickerjs-1.0/sticker.min.js" type="text/javascript"></script>
+        <script src="js/variables.js" type="text/javascript"></script>
+        <script src="js/csgoalbum.js" type="text/javascript"></script>   
         
     </body>
 </html>
