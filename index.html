@@ -61,24 +61,24 @@
                     
                     <!-- category list -->
                     <div class="list-group">
-                        <a href="#" class="list-group-item currentcategory">
-                            Katowice 2014
+                        <a href="#" id="category_katowice2014" onclick="selectCategory('katowice2014')" class="list-group-item">
+                            EMS ONE Katowice 2014
                             <span class="badge">0/34</span>
                         </a>
-                        <a href="#" class="list-group-item">
-                            Cologne 2014
+                        <a href="#" id="category_cologne2014" onclick="selectCategory('cologne2014')" class="list-group-item">
+                            ESL One Cologne 2014
                             <span class="badge">0/14</span>
                         </a>
-                        <a href="#" class="list-group-item">
+                        <a href="#" id="category_dhw2014" onclick="selectCategory('dhw2014')" class="list-group-item">
                             DreamHack Winter 2014
                             <span class="badge">0/14</span>
                         </a>
-                        <a href="#" class="list-group-item">
-                            Katowice 2015
+                        <a href="#" id="category_katowice2015" onclick="selectCategory('katowice2015')" class="list-group-item">
+                            ESL One Katowice 2015
                             <span class="badge">0/14</span>
                         </a>
-                        <a href="#" class="list-group-item">
-                            Cologne 2015
+                        <a href="#" id="category_cologne2015" onclick="selectCategory('cologne2015')" class="list-group-item">
+                            ESL One Cologne 2015
                             <span class="badge">0/14</span>
                         </a>
                         
@@ -92,9 +92,9 @@
                     <div class="col-sm-12">
                         <div class="mkg panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Katowice 2014</h3>
+                                <h3 class="panel-title" id="categoryName"></h3>
                             </div>
-                            <div class="panel-body">
+                            <div class="panel-body" id="categoryContent">
                                 <form class="form-horizontal">
                                     <fieldset>
                                         <legend>
@@ -174,9 +174,10 @@
         </div>
         
         <!-- scripts -->
-        <script src="assets/jquery-2.1.4/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/jquery-2.1.4/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="assets/bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript"></script>  
         <script src="assets/stickerjs-1.0/sticker.min.js" type="text/javascript"></script>
+        <script src="js/stickers.json" type="text/javascript"></script>   
         <script src="js/variables.js" type="text/javascript"></script>
         <script src="js/csgoalbum.js" type="text/javascript"></script>   
         

@@ -1,0 +1,33 @@
+{
+	"katowice2014": {		
+		"Legends": {
+			"quantity": 2,
+			"stickers": [
+				{"market_hash_name": "1MP9 | Tormenta (Algo desgastado)","icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FBRv7ODcfi9P6s65mpS0mvLwOq7c2GoG65wnib6Q9tXz3VLkqBVpZ2rzIdfGd1c7ZVzU8gK8xuy-0Ja86svXiSw038eOvP4"},
+				{"market_hash_name": "2MAG-7 | Seabird (Minimal Wear)","icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYQV_bRvCiwMbQVg8kdFAYoLW9Lgpp3fzaTjVN4NOJmIGZkPK6NuzTzm9TscZ32uzCotmn0Aa1_UZrMjygLY6QcwU9MA6F_li3xu_v1oj84srlNTvhug"}
+			]
+		},
+		"Challengers": {
+			"quantity": 2,
+			"stickers": [
+				{"market_hash_name": "3Sticker | ESL Wolf (Foil) | Katowice 2014","icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FBRv7ODcfi9P6s65mpS0mvLwOq7c2GoG65wnib6Q9tXz3VLkqBVpZ2rzIdfGd1c7ZVzU8gK8xuy-0Ja86svXiSw038eOvP4"},{"market_hash_name": "4MAG-7 | Seabird (Minimal Wear)","icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpouLWzKjhoyszSfjlL7d_nq42Ok_7hPvWBxW0FsJVz3ezEpoj231Xj-EpoMDjzI9WQJwBvaV7R_FG3yey905a1ot2XnierRE1y"}
+			]
+		}
+	},
+	"cologne2014": {
+		"Legends": {
+			"quantity": 2,
+			"stickers": [
+				{"market_hash_name": "5MP9 | Tormenta (Algo desgastado)","icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpouLWzKjhoyszSfjlL7d_nq42Ok_7hPvWBxW0FsJVz3ezEpoj231Xj-EpoMDjzI9WQJwBvaV7R_FG3yey905a1ot2XnierRE1y"},
+				{"market_hash_name": "6MAG-7 | Seabird (Minimal Wear)","icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBhJnLANopbSkM0ljgPfMIWlAvIu3kIKIkqbxa--Dzj8JuZAmiLDCp92jjgK1-kplZmzwOsbLJffYQ_eK"}
+			]
+		},
+		"Challengers": {
+			"quantity": 2,
+			"stickers": [
+				{"market_hash_name": "7MP9 | Tormenta (Algo desgastado)","icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBhJyKQ1HpbOhLkk416ecIDgV7d7hkoGOxqL1YO3TxD0A65x3iOqZ8I2hjALiqRZvZmuhOsbLJURTL7Eu"},
+				{"market_hash_name": "8MAG-7 | Seabird (Minimal Wear)","icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBhJnKghYu7OhZQJiivXNIj5GvtjkkNPcwPGkZe6IwThXvsYh3-2T8NWnjlLn_BA_YmntZNjCr0I6Ha8"}
+			]
+		}
+	}
+}

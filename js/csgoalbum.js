@@ -32,7 +32,7 @@ function initSticker() {
 
 /**
  * checkFormSteamID
- * 
+ * checks if the value is a name or an url
  */
 function checkFormSteamID() {
 	var steamID = document.getElementById("inputSteamID").value;
@@ -45,6 +45,100 @@ function checkFormSteamID() {
 		}
 	}
 };
+
+/**
+ * selectCategory
+ * search the selected category and use it
+ */
+function selectCategory(id) {
+	clearCategory();
+	document.getElementById("categoryName").innerHTML = window.categories[id][0];
+	document.getElementById("category_" + id).classList.add("currentcategory");
+	clearCategoryContent();
+	searchStickers(id);
+};
+
+/**
+ * clearCategory
+ * reset selected categories
+ */
+function clearCategory() {
+	for(var c in window.categories) {
+		document.getElementById("category_" + c).classList.remove("currentcategory");
+	}	
+};
+
+/**
+ * clearCategoryContent
+ * empty category content
+ */
+function clearCategoryContent() {
+	var content = document.getElementById("categoryContent");
+	while (content.firstChild) {
+		content.removeChild(content.firstChild);
+	}
+};
+
+/**
+ * searchStickers
+ * search stickers in stickers.json for selected category
+ * create a new fieldset for each subcategory with its stickers
+ */
+function searchStickers(id) {
+		
+	$.getJSON (
+		"./js/stickers.json",
+		function(stickersjson) {
+			$.each(stickersjson[id], function(subcategory) {
+					
+				var content = document.getElementById("categoryContent");
+				
+				var form = document.createElement("form");
+				form.className = "form-horizontal ng-pristine ng-valid";
+				var fieldset = document.createElement("fieldset");
+				var legend = document.createElement("legend");
+				legend.innerHTML = subcategory + " ";
+				var span = document.createElement("span");
+				span.className = "badge";
+				span.innerHTML = "0/" + this.quantity;
+				legend.appendChild(span);
+				fieldset.appendChild(legend);
+				
+				for(var i = 0; i < this.quantity; i++) {
+					var style = document.createElement("style");
+					style.type = "text/css";
+					style.innerHTML = ".classSticker" + id + subcategory + i + " .sticker-img {";
+					style.innerHTML += "background-image: url(" + window.steamimages_url + this.stickers[i]["icon_url"] + window.icondimensions +");";
+					style.innerHTML += "background-repeat: no-repeat;";
+					style.innerHTML += "background-position: center;"; 
+					style.innerHTML += "}";
+					document.getElementsByTagName('head')[0].appendChild(style);	
+					
+					var a = document.createElement("a");
+					a.className = "sticker " + "classSticker" + id + subcategory + i +" sticker-translucid";
+					a.href = window.steammarket_url + this.stickers[i]["market_hash_name"];
+					a.target = "_blank";
+					fieldset.appendChild(a);
+				}
+				
+				var divclear = document.createElement("div");
+				divclear.className = "clear";
+				fieldset.appendChild(divclear);
+				
+				form.appendChild(fieldset);
+				content.appendChild(form);
+					
+			});
+			
+			initSticker(); //activates sticker.js
+		}
+	);
+	
+	
+};
+
+
+
 
 
 function fieldtest() {
