@@ -44,6 +44,8 @@ function checkFormSteamID() {
 			steamID = steamID.split('/')[4];
 		}
 	}
+	
+	window.steamID = steamID;
 };
 
 /**
@@ -104,10 +106,13 @@ function searchStickers(id) {
 				legend.appendChild(span);
 				fieldset.appendChild(legend);
 				
-				for(var i = 0; i < this.quantity; i++) {
+				for(var i = 0; i < this.quantity; i++) {					
+					var cssname = id + subcategory + i;
+					cssname = cssname.replace(/\s+/g, ''); //delete spaces from subcategory name
+					
 					var style = document.createElement("style");
 					style.type = "text/css";
-					style.innerHTML = ".classSticker" + id + subcategory + i + " .sticker-img {";
+					style.innerHTML = ".classSticker" + cssname + " .sticker-img {";
 					style.innerHTML += "background-image: url(" + window.steamimages_url + this.stickers[i]["icon_url"] + window.icondimensions +");";
 					style.innerHTML += "background-repeat: no-repeat;";
 					style.innerHTML += "background-position: center;"; 
@@ -115,9 +120,11 @@ function searchStickers(id) {
 					document.getElementsByTagName('head')[0].appendChild(style);	
 					
 					var a = document.createElement("a");
-					a.className = "sticker " + "classSticker" + id + subcategory + i +" sticker-translucid";
+					a.className = "sticker " + "classSticker" + cssname +" sticker-translucid";
 					a.href = window.steammarket_url + this.stickers[i]["market_hash_name"];
 					a.target = "_blank";
+					a.id = "sticker_" + cssname;
+					a.title = decodeURI(this.stickers[i]["market_hash_name"]);
 					fieldset.appendChild(a);
 				}
 				
@@ -131,6 +138,7 @@ function searchStickers(id) {
 			});
 			
 			initSticker(); //activates sticker.js
+			checkOwned();
 		}
 	);
 	
@@ -138,7 +146,27 @@ function searchStickers(id) {
 };
 
 
-
+/**
+ * checkOwned
+ * if one sticker is owned by the user, it will be change its style
+ */
+function checkOwned() {
+	
+	 $.getJSON (
+			
+			"http://steamcommunity.com/id/" + window.steamID + "/inventory/json/730/2/",
+            function(items) { 
+            	$.each(items["rgDescriptions"], function() {  
+					/*
+                    if(this.market_hash_name == hash || this.market_hash_name == decodeURI(hash)) {   
+						alert("enter");
+						document.getElementById(id).classList.remove("sticker-translucid");
+                    }
+					*/
+                });
+            }
+        );
+};
 
 
 function fieldtest() {
