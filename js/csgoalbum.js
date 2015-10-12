@@ -4,13 +4,8 @@
  * functions loaded with the page
  */
 function onLoad() {
-	
-		//
-		fieldtest();
-		//
-		
-    	setVersion();
-		initSticker();
+			
+    setVersion();
 		
 };
 
@@ -46,6 +41,36 @@ function checkFormSteamID() {
 	}
 	
 	window.steamID = steamID;
+	getInventory();
+};
+
+/**
+ * getInventory
+ * get current steamID's inventory json
+ */
+function getInventory() {
+	var url = window.cross + "http://steamcommunity.com/id/" + window.steamID + "/inventory/json/730/2/";
+	
+	var spanprofilestatus = document.getElementById("spanprofilestatus");
+	spanprofilestatus.innerHTML = "Loading...";
+	window.currentinventory = null;
+
+	$.getJSON(url, function(json) {
+		if(json.success == true) {
+			window.currentinventory = json;
+			spanprofilestatus.innerHTML = "<a href='http://steamcommunity.com/id/" + window.steamID + "/inventory/#730' target='blank'>Inventory</a> loaded correctly";
+		}
+		else {
+			//if json includes error message
+			try {
+				spanprofilestatus.innerHTML = json.Error;
+			}
+			//if json doesn't include error message
+			catch(err) {
+				spanprofilestatus.innerHTML = "There were some errors while fetching the inventory. Check if it's correct.";
+			}
+		}
+	});
 };
 
 /**
@@ -53,11 +78,15 @@ function checkFormSteamID() {
  * search the selected category and use it
  */
 function selectCategory(id) {
-	clearCategory();
-	document.getElementById("categoryName").innerHTML = window.categories[id][0];
-	document.getElementById("category_" + id).classList.add("currentcategory");
-	clearCategoryContent();
-	searchStickers(id);
+	
+	if(id != window.LastCategory && window.currentinventory != null) {
+		clearCategory();
+		document.getElementById("categoryName").innerHTML = window.categories[id][0];
+		document.getElementById("category_" + id).classList.add("currentcategory");
+		clearCategoryContent();
+		searchStickers(id);
+		window.LastCategory = id;
+	}
 };
 
 /**
@@ -141,10 +170,7 @@ function searchStickers(id) {
 			checkOwned();
 		}
 	);
-	
-	
 };
-
 
 /**
  * checkOwned
@@ -152,20 +178,23 @@ function searchStickers(id) {
  */
 function checkOwned() {
 	
-	 $.getJSON (
-			
-			"http://steamcommunity.com/id/" + window.steamID + "/inventory/json/730/2/",
-            function(items) { 
-            	$.each(items["rgDescriptions"], function() {  
-					/*
-                    if(this.market_hash_name == hash || this.market_hash_name == decodeURI(hash)) {   
-						alert("enter");
-						document.getElementById(id).classList.remove("sticker-translucid");
-                    }
-					*/
-                });
-            }
-        );
+	var descriptions = window.currentinventory.rgDescriptions;
+	
+	var items = document.getElementById("categoryContent").getElementsByTagName("a");
+	for(var i = 0; i< items.length; i++) {
+		var hash = items[i].title;
+		
+		for(var item in descriptions) {
+			var market_hash = descriptions[item]["market_hash_name"];
+			if(market_hash == hash || market_hash == decodeURI(hash)) {  
+				document.getElementById(items[i].id).classList.remove("sticker-translucid");
+				
+				break;
+			}
+		}
+		
+	}
+
 };
 
 
