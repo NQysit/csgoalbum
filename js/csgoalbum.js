@@ -135,21 +135,33 @@ function searchStickers(id) {
 				legend.appendChild(span);
 				fieldset.appendChild(legend);
 				
+				
 				for(var i = 0; i < this.quantity; i++) {					
 					var cssname = id + subcategory + i;
 					cssname = cssname.replace(/\s+/g, ''); //delete spaces from subcategory name
-					
-					var style = document.createElement("style");
-					style.type = "text/css";
-					style.innerHTML = ".classSticker" + cssname + " .sticker-img {";
-					style.innerHTML += "background-image: url(" + window.steamimages_url + this.stickers[i]["icon_url"] + window.icondimensions +");";
-					style.innerHTML += "background-repeat: no-repeat;";
-					style.innerHTML += "background-position: center;"; 
-					style.innerHTML += "}";
-					document.getElementsByTagName('head')[0].appendChild(style);	
-					
+										
 					var a = document.createElement("a");
-					a.className = "sticker " + "classSticker" + cssname +" sticker-translucid";
+					
+					if(window.animatedstickers) {
+						
+						var style = document.createElement("style");
+						style.type = "text/css";
+						style.innerHTML = ".classSticker" + cssname + " .sticker-img {";
+						style.innerHTML += "background-image: url(" + window.steamimages_url + this.stickers[i]["icon_url"] + window.icondimensions +");";
+						style.innerHTML += "background-repeat: no-repeat;";
+						style.innerHTML += "background-position: center;"; 
+						style.innerHTML += "}";
+						document.getElementsByTagName('head')[0].appendChild(style);						
+						
+						a.className = "sticker " + "classSticker" + cssname +" sticker-translucid";
+					}
+					else {
+						var img = document.createElement("img");
+						img.src = window.steamimages_url + this.stickers[i]["icon_url"] + window.icondimensions;
+						a.className = "sticker-translucid";
+						a.appendChild(img);
+					}
+					
 					a.href = window.steammarket_url + this.stickers[i]["market_hash_name"];
 					a.target = "_blank";
 					a.id = "sticker_" + cssname;
@@ -166,7 +178,9 @@ function searchStickers(id) {
 					
 			});
 			
-			initSticker(); //activates sticker.js
+			if(window.animatedstickers) {
+				initSticker(); //activates sticker.js
+			}
 			checkOwned();
 		}
 	);
@@ -195,6 +209,28 @@ function checkOwned() {
 		
 	}
 
+};
+
+/**
+ * swapAnimated
+ * change the way stickers are listed
+ */
+function swapAnimated(mode) {
+	
+	if(mode != window.animatedstickers) {
+		window.animatedstickers = mode;
+		
+		if(mode) {
+			document.getElementById("btnSwapOn").classList.add("active");
+			document.getElementById("btnSwapOff").classList.remove("active");
+		}
+		else {
+			document.getElementById("btnSwapOn").classList.remove("active");
+			document.getElementById("btnSwapOff").classList.add("active");
+		}
+		
+	}
+	
 };
 
 

@@ -2,6 +2,7 @@ window.CurrentVersion = "v 0.0.5"; //app version
 window.LastCategory = false; // last category filtered
 window.steamID = ""; //current steamID being analyzed
 window.currentinventory = null;
+window.animatedstickers = true;
 
 window.categories = 
 {
