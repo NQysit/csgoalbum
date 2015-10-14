@@ -13,17 +13,64 @@
 			]
 		}
 	},
-	"cologne2014": {
-		"Legends": {
-			"quantity": 1,
+	"cologne2014": {		
+		"ESL": {
+			"quantity": 2,
 			"stickers": [
-				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%7C%20Cologne%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBhJyKwVDv7maJwZy1PaGJDsUtIzllYPbz6P1aumGkj8Eu5Uj2OqQo4rz3gPk_kE_MGj3IIaXcxh-Pw9UQL4eng"}
+				{"market_hash_name": "Sticker%20%7C%20ESL%20One%20Cologne%202014%20%28Blue%29", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJxNghot4WpKhVn1r2acG8VvYywwoGJlPL2Zb_Tl29XsZEmib2X9Nvw3AHgr0plYT33JITEbEZgNqL9cNLq"},
+				{"market_hash_name": "Sticker%20%7C%20ESL%20One%20Cologne%202014%20%28Red%29", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJxNghotIWpKhVn1r2fcmhG74rjw9WNxa-kN7qCwm8DvJYijLCU8d322QG3r0A-MmChdYKRbEZgNskeyBKG"}
+			]
+		},
+		"Legends": {
+			"quantity": 7,
+			"stickers": [
+				{"market_hash_name": "Sticker%20%7C%20Cloud9%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ3KQtCsuOaJwZy1PaGIWoS6Y-1kYPax_KiZO-EwDMD7ccn2bqU9I2s3QC1rRFpMGnycIWUehh-Pw8N5kT_Hg"},
+				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJyKwVDv7maJwZy1PaGIWwWuou3wYKPzvamar6EwGlXsZckiOzA94mh3gTt_BZsMj_wctTBJxh-Pw-YdE0zDw"},
+				{"market_hash_name": "Sticker%20%7C%20HellRaisers%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ8IAhbpLusOAJywMzEcC9F6ZKykNaNzqemNu-Fl20CupEi277Ap97x0FDh-0NvZDz3IITHcwI8YQuC5BHgllcAG2LZ"},
+				{"market_hash_name": "Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ6LApdt6msJRd52fLFcC594N2kk4XFz6OgMb2CkjkEsZF0276Y942giVbg-BFkN2_3cY7DJwFvNVqF_VXqwvCv28Fyj29OZA"},
+				{"market_hash_name": "Sticker%20%7C%20Team%20Dignitas%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJgIAVasrOiJQ500uD3fTxQ69n4lYbew6CtZL3Uz2kC7MNw2uqSrdT20AHmrhJsYDr0J4edJlNqZAvWqU_-n7khyWk_bQ"},
+				{"market_hash_name": "Sticker%20%7C%20Team%20LDLC.com%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJgIAVaur6pKDhs0uHPdHNDvojnw9fbzqWlNezSzj0AsZZzi7vEo932iQDtr0NtYGqmJ9XEIwU_fxiOrdUvMW_u"},
+				{"market_hash_name": "Sticker%20%7C%20Virtus.Pro%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJiLBZDo6m1OQhf3_LadjgM7orukNWIlaSlN--HwjsEu8EmiLDH8d2i21fk-hI-MmyndYeRcQVtYEaQpAZBbUgrSQ"}
 			]
 		},
 		"Challengers": {
-			"quantity": 1,
+			"quantity": 9,
 			"stickers": [
-				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%7C%20Cologne%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBhJyKwVDv7maJwZy1PaGJDsUtIzllYPbz6P1aumGkj8Eu5Uj2OqQo4rz3gPk_kE_MGj3IIaXcxh-Pw9UQL4eng"}
+				{"market_hash_name": "Sticker%20%7C%20Copenhagen%20Wolves%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ3KhRSuLKkLAJuxPzEZzhR09C3hoeO2fHxY-KIkzIJuZMn0-2W8Nmt3QXl_UZpMTr6IIWSIAZoaQzU-AS2l7_xxcjra08ur7M"},
+				{"market_hash_name": "Sticker%20%7C%20dAT%20team%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJwJBBDs7uoFAthwfTNP2sR7djvxYPdwK6lZO-GwDIFuZcgib2R94_z2wfg8kRlZWrwLYWWdQ4gIQaHN9VooUQ"},
+				{"market_hash_name": "Sticker%20%7C%20Epsilon%20eSports%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJxNRdeurWrLhRw3OHcYgJO7c6xkc6Nzq6sN7rXkDMBupRy2O3D9tzzjAXgrRc6Yz_yLILEIQE4YVuB-FO6366x0n3Kp9l6"},
+				{"market_hash_name": "Sticker%20%7C%20iBUYPOWER%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ9JxFOprWyLhVf3_LadjgMtYm3wdDZlq6lN7rUxjgJ65Ry3eqVpo322AS2_xc6NTigJ4LBJFQ2YUaQpAa5Qg-WnQ"},
+				{"market_hash_name": "Sticker%20%7C%20London%20Conspiracy%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ4KgpTubSmJAlzw_racD5b09C3hoeO2aShZOmIwjsF6cQh2r2Tp4mg2gTt_RFlMmHwI46Ud1VsMF_R-wXrwuvxxcjrLMOa9lA"},
+				{"market_hash_name": "Sticker%20%7C%20Natus%20Vincere%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ6JBJeibakOQBlnfXMI2xGvo_gltiPxqagML_UxGkC7pJ32LyW9Nj3jQXl-kVkZT_ycdWLMlhpwoe1CxU"},
+				{"market_hash_name": "Sticker%20%7C%20Titan%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJgLBBWuIWpKhVn1r2YIWgbvIjmzNKJwqajZO2EwW8HsJYj3byVoNj03QLk_0E_MDz2I4-RbEZgNpEKe4c4"},
+				{"market_hash_name": "Sticker%20%7C%20Vox%20Eminor%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJiKhxSu7OrJBVf3_LadjgMtdjlktaJkqGlN--AxW0G6sQk2OuRptmhiVfsrRJvZj_7I9TGJgNvYkaQpAYOyNHtXw"},
+				{"market_hash_name": "Sticker%20%7C%20MTS%20GameGod%20Wolf%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJjKghRibakOQBlnfbNcG4Q7tm0kNbSlaT1Z-uGzjtQ7ZRyj73FrY7w0VLn8hFtazimcoKLMlhpfazSnH0"}
+			]
+		},
+		"Legends Holo": {
+			"quantity": 7,
+			"stickers": [
+				{"market_hash_name": "Sticker%20%7C%20Cloud9%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ3KQtCsuOaIwhs3MzEcC9F6ZK0kYSNz6T1ZLrQlT0FuZN32LrEoNyh2AKxqBJkMWGmLYPEIFJvZ1uC5BHglrxdmHPj"},
+				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJyKwVDv7maIwhs3MzEcC9F6ZKzzdLZzq-gNu3VxjpXscZwi7yZ9o30igTi-RI-ZTyiJoCTdQA5NF3S5BHglkqMBI3F"},
+				{"market_hash_name": "Sticker%20%7C%20HellRaisers%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ8IAhbpLusOAJywMzAfjFN09C3hoeO2a6iZ-2Fkm9QuZxw2ryRo96m0VWx80dqYGD7IYLHdlA3ZgnU_VfoxOvxxcjr7Se-ugE"},
+				{"market_hash_name": "Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ6LApdt6msJRd52fLFcC595NO6m7-HluXzNvWFxToHsZR0jOjCoI732w3j80tqazumIYDDJgY7YF-BqVm_lOfohcO6ot2Xngh5OFfi"},
+				{"market_hash_name": "Sticker%20%7C%20Team%20Dignitas%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJgIAVasrOiJQ500uD3eTJO4-O6lZKMkrmmMuyJwDJVupZ03LuWpYqh2A3nqRc9Yzz2LYbEcgU7NQuDrwS4wejnm9bi67k5kpUd"},
+				{"market_hash_name": "Sticker%20%7C%20Team%20LDLC.com%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJgIAVaur6pKDho3P_HTjFD_tuz2tWKxaKjYr_Xx2oFucEmjO_EoNyki1C2-RJrYzr6LIWcdlQ3NQyE_lmggbC4YvY8zG0"},
+				{"market_hash_name": "Sticker%20%7C%20Virtus.Pro%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJiLBZDo6m1OQhf2_zEfgJO7c6xkc6OxKejY7-Dxz8BuJYk2bGZp9yj2QXs_xY4ZWH6IIedcg5raF3UqVXr366x0il2ShY1"}
+			]
+		},
+		"Challengers Holo": {
+			"quantity": 9,
+			"stickers": [
+				{"market_hash_name": "Sticker%20%7C%20Copenhagen%20Wolves%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ3KhRSuLKkLAJuxPzEZzhR09S5mI-0m_bmNL6fxzhS7cAi3bmWrY6kjg3s-kRtMj33d4DDdQZoZw7YrFe4l---gpC_uYOJlyVmKJfI1Q"},
+				{"market_hash_name": "Sticker%20%7C%20dAT%20team%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJwJBBDs7uoFA9v3_z3fTxQ69n4kdTYxqL2NujUxGgJ7pJ1i-_E94-kigC2-BU-MG32cIKQdFQ3NFmDq0_-n7lWY7qwWQ"},
+				{"market_hash_name": "Sticker%20%7C%20Epsilon%20eSports%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJxNRdeurWrLhRw3OHcYgJK49C5q4yKhfDxfe6DzmgAsMMo27qTotqnjlXkrRJlZjz0LYScdVJrYwnV-Fa5le29h5Ki_MOeB_sNGPY"},
+				{"market_hash_name": "Sticker%20%7C%20iBUYPOWER%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ9JxFOprWyLhVf2_zEfgJO7c6xkc6KzqGjauzXxDMJ7ZEn27nCpduljASyqBZqYjyhdYeVcVVoYQvZqAW7366x0tiFSyJG"},
+				{"market_hash_name": "Sticker%20%7C%20London%20Conspiracy%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ4KgpTubSmJAlzw_racD5b09S5mI-0m_bmNL6fkz1VvJYm07GS99ig2Qbk8kVtNmj7cteUcwY3YQ7QqFW7wevuhJW6vIOJlyX8LlfhIg"},
+				{"market_hash_name": "Sticker%20%7C%20Natus%20Vincere%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJ6JBJeibKqJwhf3_LadjgMuIzmw9jTz6_wYuiJlTlSvZAk3-qUo9_w0QGy_BU6NWH6JdCWJg5qNEaQpAYgOATycQ"},
+				{"market_hash_name": "Sticker%20%7C%20Titan%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJgLBBWuIWtJAtv7P_JYzpHoonhzdbexa-mN-nQlG4HuZMojLCY842jiwXn_UY4N23xd4TDJABoZlDOug_phnvLMfs"},
+				{"market_hash_name": "Sticker%20%7C%20Vox%20Eminor%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJiKhxSu7OrJBVf2_zEfgJO7c6xkc7bxvH3Mu-Gk25QsMF02OiV9or22FHkr0FuMm31doGRdAZoZ1nR-ADo366x0n3fab8k"},
+				{"market_hash_name": "Sticker%20%7C%20MTS%20GameGod%20Wolf%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJjKghRibKqJwhf3_LadjgMvYTukYHdlfOmNemDlz4DucFzi73ErImtjlfn-RZsZWvyd9DGdgA8aUaQpAYDMLTcdg"}
 			]
 		}
 	},	
