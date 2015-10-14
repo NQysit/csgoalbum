@@ -73,7 +73,59 @@
 				{"market_hash_name": "Sticker%20%7C%20MTS%20GameGod%20Wolf%20%28Holo%29%20%7C%20Cologne%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBxJjKghRibKqJwhf3_LadjgMvYTukYHdlfOmNemDlz4DucFzi73ErImtjlfn-RZsZWvyd9DGdgA8aUaQpAYDMLTcdg"}
 			]
 		}
-	},	
+	},
+	"dhw2014": {		
+		"DreamHack": {
+			"quantity": 2,
+			"stickers": [
+				{"market_hash_name": "Sticker%20%7C%20DreamHack%20Winter%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMvBVlx5LQVUva2sJRNlwaGYIGl94N2kk4XFw6P1YLrUwm5SvpQgjrnC9tSkila1_BJqYG_7d9KXdAQ7ZguD_1O2yfCv28HPIEu_6Q"},
+				{"market_hash_name": "Sticker%20%7C%20DreamHack%20Winter%202014%20%28Foil%29", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMvBVlx5LQVUva2sJRNlwaGYIGl96tO_mL-HluXzNvXUk2gG65Ei372Vo9zw2gLh_xZtMmjxIoGRdA5oaV2FrlC2k7i51pDqot2Xno4FmJYD"}
+			]
+		},		
+		"Regular": {
+			"quantity": 16,
+			"stickers": [
+				{"market_hash_name": "Sticker%20%7C%20Cloud9%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMzfXEhwfDtbt6iiLkkwiqSaKD4QvdrjzIONw6_wMOPSlG8D7cQj3-rDrI-s2wzm-kI4ZmH0OsbLJULyr9CN"},
+				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMndUkl9Jjtbt6iiLkkzh6LNJWwRvIrvwNXbzvGlY--JxjoAuZIo2-_Hod72jFGy_EA-ZmH2OsbLJXEXJk4Q"},
+				{"market_hash_name": "Sticker%20%7C%20Natus%20Vincere%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMHSRVRLKQVFsb_reAE0g6XLI2UR74vll9COxK6gNeOEz2oG65x3j7GT992n3VbkqUM5ZXezetHZODRwSw"},
+				{"market_hash_name": "Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMHaXVd1Ng1ZpqOvKgphwMzEcC9F6ZK3lYHTwKH1N7rUkz0DvsF02OqRrNzx2lG1rhU4ZDjyJITAIwVrY1mE5BHglgH1mAXz"},
+				{"market_hash_name": "Sticker%20%7C%20Team%20Dignitas%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMvaVFN9MQVEibakOQBlnfHLJj4WuozkkdPYlKSlZ7qDlT4Cu5N127CW9N-s21GwrUFpYzz7cYGLMlhpsWsT1_0"},
+				{"market_hash_name": "Sticker%20%7C%20Virtus.Pro%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mNnaQUlhNhRFuYWpKhVn1r2bd2gW6o60wNWKlaGtMeiJxTtXupwl27GUoI6m3wfi-RJrMG72ItWSbEZgNrj7wMc6"},
+				{"market_hash_name": "Sticker%20%7C%20Planetkey%20Dynamics%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mN_fUlNxMQ9Sr768JQZt2vDbTjFD_tuz2tPYkaKlMuPSlDtU7MEl0-zEoIit3AXl-kptY2r0Io6QIAI2YlrT-FGggbC45sPH6H8"},
+				{"market_hash_name": "Sticker%20%7C%20Copenhagen%20Wolves%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMzcQ1h6LQVQs7SyJAt21uD3fTxQ69n4x9LSxKLwNr2Dx2lU7cR13b-UpNqiiQHm8xdqZmjwI9TGdlBvMwvY-E_-n7mGVNi_og"},
+				{"market_hash_name": "Sticker%20%7C%20Bravado%20Gaming%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mM3BUkt1IQtQt7esJQBf3_LadjgMuYzkw9bTkaT1YOzUl2lSsMAj2L7Hptmm2ASxqRZoNWzzcYWVI1VqYEaQpAaoCLreJQ"},
+				{"market_hash_name": "Sticker%20%7C%20Flipsid3%20Tactics%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMnfWk1nLAAEibakOQBlnfCaI2xEvIiwzYXex6atMevVwDsF7JQh2b2SrYn23wTk-RFpN2GnIIWLMlhpi0_tLOs"}, 
+				{"market_hash_name": "Sticker%20%7C%20iBUYPOWER%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMbRRkRkKhNSpIWpKhVn1r2cImtH7d7nktmKwaKlY-LSxD0B6pdz3biZ8NmijAfk-Us9Y2mhdY6WbEZgNmmsCBnk"},
+				{"market_hash_name": "Sticker%20%7C%20Team%20LDLC.com%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mNvWUlB4IQhUibakOQBlnfaYJm0Tv9jvw9iPwfGtYr2JkzkB6pcl2riRrdnxjlCw_EBsYGulco6LMlhpXK5KaFA"},
+				{"market_hash_name": "Sticker%20%7C%20PENTA%20Sports%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mN_WXUl1NhRYpK62FAthwfTNPzgTvIngldjTx_WhY-yAkz5U7pNwib6V99-l31GwrUpvY23yJICQJ1IgIQaHqWiy35I"},
+				{"market_hash_name": "Sticker%20%7C%20ESC%20Gaming%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMrAUFp1KA1ZsYWpKhVn1r3LdGUWvYS3kNHSxPKmZLmJwDxTvcBziejFpNn32QflrkBrNzv3II-UbEZgNsgInhqd"}, 
+				{"market_hash_name": "Sticker%20%7C%20HellRaisers%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMfWX1FmJA1Es6i2FAthwfTNP2QStd3uwdHbzq6jZL-HxW1X65dy3r_Apdmh2A3k-UVqZm6lcNLAdFMgIQaHA8TzaJo"}, 
+				{"market_hash_name": "Sticker%20%7C%20myXMG%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMLKS1BzGghWpL2gZVE0g6OeJGwb6I3hxtPbwfTyYrnTlD8BvMcl3r-SoN2n3AWyrxI5MG_tZNjCQn5EpUw"}  
+			]
+		},		
+		"Legends Holo": {
+			"quantity": 6,
+			"stickers": [
+				 {"market_hash_name": "Sticker%20%7C%20Cloud9%20%28Holo%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMzfXEhwfDtfubaqFAthwfTNPz8Q7dqzxoGPwKWsN-uAkzJV7cFzi-uRpdqn2wfs8kE5YWryd4fDIFUgIQaH7HcwH58"},
+				 {"market_hash_name": "Sticker%20%7C%20Fnatic%20%28Holo%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMndUkl9JjtfubaqFAthwfTNP2obtY_jzNOJxvX2MOmEwGoC7pEojrzF9N3x2gHg8hA-ZT2lI4OddVQgIQaHqRh7l6k"},
+				 {"market_hash_name": "Sticker%20%7C%20Natus%20Vincere%20%28Holo%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMHSRVRLLQtbuYWpKhVn1r2ecm0X7djvlYPfk_L3Y7rUwzNSscMp3euRpoit2gSy_xJtNTz0doHHbEZgNs1h6tjc"},
+				 {"market_hash_name": "Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%28Holo%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMHaXVd1Ng1ZpqOvKgphwMzAfjFN09C3hoeO2fatN-jTxWgFvJYn3b-So9v0jAfg-kNuNT31I4CdIVc7YlmC_1C2krzxxcjrLTS9-D4"},
+				 {"market_hash_name": "Sticker%20%7C%20Team%20Dignitas%20%28Holo%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMvaVFN9MQVEibKqJwhf3_LadjgMuYSzwNDblK71Yu6Glz1VvJEojLyZoI3x3QHg_UU5MWCgctOUcFc3NUaQpAa_pnwDlw"},
+				 {"market_hash_name": "Sticker%20%7C%20Virtus.Pro%20%28Holo%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mNnaQUlhNhRFuYWtJAtv7P_JYzpHotrnxNbawK-iauKIkzwEu5cm2bmQ9o2ljQTg_UVoa2Dwd9SSdQc-M1rOug_pbRaJAik"}
+			]
+		},	
+		"Legends Foil": {
+			"quantity": 6,
+			"stickers": [
+				{"market_hash_name": "Sticker%20%7C%20Cloud9%20%28Foil%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMzfXEhwfDtRubOpFAthwfTNPzxHvd7gzdSJxfX3YevTkmgF6Z113uvA9NusiwK1_BBkMTz1cYORdgEgIQaHAYaUtsE"},
+				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%28Foil%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMndUkl9JjtRubOpFAthwfTNPzsT6N_hx4Xckq71MuqFl24CvcAj0rzAptX0iVGwrUNrN2qhd4CXewYgIQaH9fIJuz0"},
+				{"market_hash_name": "Sticker%20%7C%20Natus%20Vincere%20%28Foil%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMHSRVRLIwteuoWpKhVn1r3NKGtD6IzlxYPclqLxZOzTwTJTv8dzj7uQpIqmjQDt80tqZW76LISWbEZgNq8lN063"},
+				{"market_hash_name": "Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%28Foil%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMHaXVd1Ng1ZpqOvKgphwMzOfjRO09C3hoeO2aGga-6BwzkJvZUm2OqSoNSs2QPh-EZuY2GldtWWdFJvYg2CqwTrwebxxcjrjJbDgl0"},
+				{"market_hash_name": "Sticker%20%7C%20Team%20Dignitas%20%28Foil%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mMvaVFN9MQVEibyqIgtf3_LadjgMudrnzYPYlKatZ-vSxT5X7ZB3ib3F8Nyj3FXi_UU4ZWilLNXEcQE8Y0aQpAbXBybzsA"},
+				{"market_hash_name": "Sticker%20%7C%20Virtus.Pro%20%28Foil%29%20%7C%20DreamHack%202014", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRZRFuCF7X5mNnaQUlhNhRFuYWjJA5s7P_JYzpHooXnxtmKwKP2ML7Qk24DupZ00-2W8d6i2Fbl-xBpMTz2IoKSdA5qNF_Oug_pe5WkhOE"}
+			]
+		}
+	},
 	"cologne2015": {
 		"ESL": {
 			"quantity": 1,
