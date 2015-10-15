@@ -163,6 +163,78 @@
 			]
 		}
 	},
+	"katowice2015": {
+		"ESL": {
+			"quantity": 2,
+			"stickers": [
+				{"market_hash_name": "Sticker%20%7C%20ESL%20One%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYs6mpFAZf3_LadjgM7oqzzdSJkqWiZ-jUwjpUucFz27CT9tyi0QC3-xA6YmHyJIeUcgBqNEaQpAYxWKT14Q"},
+				{"market_hash_name": "Sticker%20%7C%20ESL%20One%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYs6mpFAZf1fzBfQJO7c6xkc6Nx6L3YLmGxjwBv8F3j-zDp96l2lGy_hBkYGr1cIHEI1BoNF-ErFi3366x0vx2md6N"}
+			]
+		},
+		"Regular": {
+			"quantity": 16,
+			"stickers": [
+				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYsLSkPw5j7P_JYzpHoorjkIHTkvagYbjSl2oCv5Yp27vEoY2mjATsr0RsMWqld4DHewRrN1DOug_pGwVt2UU"},
+				{"market_hash_name": "Sticker%20%7C%20HellRaisers%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYvr-pJxVh2uDNYy594N2kk4XFwK6lMeqAlzIA6pdw27vCoI_23QLk-ktsZm-id4DAJAJvZQuE_QPtw_Cv28EKf1JRPw"},
+				{"market_hash_name": "Sticker%20%7C%20Natus%20Vincere%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYuLuzIjhs0uHPdHNH7djux4OIlPKhMbmCxjNV6pAkjrvE99Wnigax_xdpYmiicNCTcQY5fxiOrdEVZYhs"},
+				{"market_hash_name": "Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYuLOrIQZz2v3YaDdD4d2lq4yKhfDxfbmHwzpTsJV00uqUrYqh3Ae2r0I-YW2gIdLAcwI4aFvRrAe9ye7mjJSi_MOeKQFdFTY"},
+				{"market_hash_name": "Sticker%20%7C%20PENTA%20Sports%20%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYpr-rPwZzw_zaZS594N2kk4XFz_HwNemHxzpSvpQgjr2Zpdqsiga2qRBtN2z7JNKRdwFvM1-F-QC7l_Cv28HLqyrAgQ"},
+				{"market_hash_name": "Sticker%20%7C%20Team%20EnVyUs%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYor-kJgJuxerdYgJO7c6xkc6OlPOkZumHkzlS7pci0uuRod6gjQ3sqEc6ZDunJ9WcdQE3N1HW_lbs366x0vzieq0n"},
+				{"market_hash_name": "Sticker%20%7C%20TSM%20Kinguin%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYor-kJhRv3_zFeDl94N2kk4XFlfKmYO_Tzz0GsMYnib3Dpt2k3lLj-RZuZzylcI-WdgFrZQ3SrFS-lfCv28HSNBQllw"},
+				{"market_hash_name": "Sticker%20%7C%20Virtus.pro%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYoLO3PxJzw-HHTjFD_tuz2oGKlPbyMuzQxz5TvMEi27zA9tT33lfmr0trYDilIYCdcAI_YViB_FOggbC4-r8J0VQ"},
+				{"market_hash_name": "Sticker%20%7C%203DMAX%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEY5b6oKh9f3_LadjgMutiyzdSIwqegYLqBxmlQuJQg3O2Y9o703lLi-EE6amrxIYKTcQFoZEaQpAY3jjYrGw"},
+				{"market_hash_name": "Sticker%20%7C%20Cloud9%20G2A%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYtbaqPgM57P_JYzpHot-0l4PTwPHwMeyAlG4J7Zd33LvHo42g3FKw-0VvMGvxLdKWIAJraVrOug_pIi09l4w"},
+				{"market_hash_name": "Sticker%20%7C%20Counter%20Logic%20Gaming%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYtbWwJRNlwf_HdjRB09C3hoeO2aenMO7SzzgAvJEn3OjCo96t3Aa3qkJkNWv6Jo7HJwM4NwzX_Fe6xrrxxcjrHYLyAXw"},
+				{"market_hash_name": "Sticker%20%7C%20Flipsid3%20Tactics%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYsLasOxRp16D3fTxQ69n4zNSNwvakZ-uJkzwCusYi3rmUoNSliwbl-kNpYzj6JYCUewNrZArZqE_-n7mqsQ180g"},
+				{"market_hash_name": "Sticker%20%7C%20Keyd%20Stars%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYvb-8Lzhs0uHPdHMTv4vnx9jalqH1MO_Sx2oIupIkj-2UoN6t3VLt-EVpaz_7IILDIQY7fxiOrTSP5L6b"},
+				{"market_hash_name": "Sticker%20%7C%20LGB%20eSports%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYur2nFAthwfTNPzgQuI_lkILdxKajY72CxTgCvZB0ibGZrN2hig3k-hY6Mm-mJIaXJFUgIQaHaAFqIc4"},
+				{"market_hash_name": "Sticker%20%7C%20Titan%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYorOxKglf3_LadjgM6d_jktjcxaKlZLiGwTwHusYm3u-Qodqk0ALjqERqNWDxLdKVIwA8YUaQpAavfp4mGQ"},
+				{"market_hash_name": "Sticker%20%7C%20Vox%20Eminor%20%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYoLW9Lgpp3fzaTjFD_tuz2tLTxPTyY7nUxTlT7pMjjLuRoI7w3wO2rRI9azild4OTdgdvaV7R_FaggbC4Vj8UHOE"}
+			]
+		},
+		"Holo": {
+			"quantity": 16,
+			"stickers": [
+				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYsLSkPw5j7PvHfTJ94N2kk4XFwaStMujTkm1Qu50m2b6ZpNr0jgO28kZpYm32coXHcw42M1yBqVi5yfCv28GmbUJxyA"},
+				{"market_hash_name": "Sticker%20%7C%20HellRaisers%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYvr-pJxVh2uDNYy595NO6m7-HluXzNvWIkjMCsMci2rvE89ym2FftqkNoZmnycNSTcQQ6NV6E-FG6yOy8hsLoot2Xnl0qs4z6"},
+				{"market_hash_name": "Sticker%20%7C%20Natus%20Vincere%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYuLuzIjho3P_HTjFD_tuz2oPawq_yZO3Xk2gE6cd327iUrNSkiQDl-0prZGjyI9fHJwBqNwnSrgSggbC4r5xG2nc"},
+				{"market_hash_name": "Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYuLOrIQZz2v3YaDdD4d2lq4iEm_jLP7rDkW4fv5Uj3rjHodjx3Q2x8xVoYmz6LIGWcw8_YVqFqQW7w-zogpK7uczJzmwj5HfyLRa01g"},
+				{"market_hash_name": "Sticker%20%7C%20PENTA%20Sports%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYpr-rPwZzw_zaZS595NO6m7-HluXzNvWIw29UvJQni7nFoI6mjg3i-Rc6NzugddLGegA7Y1CE-FK-kOu8g5e4ot2Xnhi8-PIn"},
+				{"market_hash_name": "Sticker%20%7C%20Team%20EnVyUs%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYor-kJgJuxerdYgJK49C5q4yKhfDxfb-AlD9U6pMn3rDCoInwiQXs_RJkajz6J4eUJgM4Y1rQrle4lO29gMei_MOeCogzKn4"},
+				{"market_hash_name": "Sticker%20%7C%20TSM%20Kinguin%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYor-kJhRv3_zFeDl95NO6m7-HluXzNvXTxGkIu8Mp2LyW8N-iiwLn-UptZmzzLNDAIAA9NFvQ8wPoxe26hJ-4ot2XnqQn0pJz"},
+				{"market_hash_name": "Sticker%20%7C%20Virtus.pro%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYoLO3PxJzw-HHTjVN4NOJmIGZkPK6ZuOGwTMCscB03L7Cp9-m3QzgqEVkZmnxd4XHdwJqNF7V_FfokO_rjYj84spsNGIngQ"},
+				{"market_hash_name": "Sticker%20%7C%203DMAX%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEY5b6oKh9f2_zEfgJO7c6xkc6Kx6f1N-yEzm8EucMj2LyYpt6h3lHn_kc6YGzyINWTdFJoYguBrwe_366x0j6nZw_B"},
+				{"market_hash_name": "Sticker%20%7C%20Cloud9%20G2A%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYtbaqPgM57PvHfTJ94N2kk4XFkqP2Z-jXl24D6p0n3bmRrN322VbmqUo5Nj2iINXDcVBtN13Y8gK6l_Cv28Fpru2Faw"},
+				{"market_hash_name": "Sticker%20%7C%20Counter%20Logic%20Gaming%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYtbWwJRNlwf_HdjRB09S5mI-0m_bmNL6fwm5XsZwmi-yV946m0QKy80JlYDr1J4XAdAQ_NVDS_Vntl7rm0cXo7YOJlyW-Yc6xpw"},
+				{"market_hash_name": "Sticker%20%7C%20Flipsid3%20Tactics%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYsLasOxRp16D3eTJO4-O6lZKMkrmja-6Fw2oG6cQni7CT942n3wPt_0c5YTvwd9eScQ43N1nR-wTtwOzom9bi61pgNcKR"},
+				{"market_hash_name": "Sticker%20%7C%20Keyd%20Stars%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYvb-8Lzho3P_HTjFD_tuz2oOIka-mMuyElTkAuZNwjOvD99Wm3lDj8xY4am2icYHHcgVqNwmD-FGggbC43D5opgw"},
+				{"market_hash_name": "Sticker%20%7C%20LGB%20eSports%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYur2nFA9v3_z3fTxQ69n4wdHcwfLxNr-HxD8H651w3ezEodut31WxrUZlajynLI6cewRoYQ2F_0_-n7nTIrfFUQ"},
+				{"market_hash_name": "Sticker%20%7C%20Titan%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYorOxKglf2_zEfgJO7c6xkc6KxvSmMe_UkG5UvMZw3O-Qp9Tw3AXgrURqZWChJIGWdwdqMg6Erwfv366x0n0TDkh_"},
+				{"market_hash_name": "Sticker%20%7C%20Vox%20Eminor%20%28Holo%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYoLW9Lgpp3fzaTjVN4NOJmIGZkPK6ZeKEkzMD6pwm2-iT8NX3jQ2yr0o5ZW_1LNeTdVBtNQ6C-wO4wO65g4j84spzYhycOw"}	
+			]
+		},
+		"Foil": {
+			"quantity": 16,
+			"stickers": [
+				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYsLSkPw5j7PXHeDF94N2kk4XFkvOjZuiFlToG65B33-iY8I_2jlHk-0RqZGHyJNDBIAFoYArU-lG9lPCv28G7mykyXQ"},
+				{"market_hash_name": "Sticker%20%7C%20HellRaisers%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYvr-pJxVh2uDNYy596tO_mL-HluXzNvWEz20Bvp130u_Cpt_z31fk80pta230JIWSdVQ8aV2Fq1a9ye66hZ--ot2XnjPJP4jH"},
+				{"market_hash_name": "Sticker%20%7C%20Natus%20Vincere%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYuLuzIjhm3PrETjFD_tuz2obelaGlau7QxD1UuJIk07mUoIit2FLn_Es9ZmuhIteWJFU5MFuC_AWggbC41-_jsD8"},
+				{"market_hash_name": "Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYuLOrIQZz2v3YaDdD4d2lq4aEnvvLP7rDkW4f7sNzju2RpIrz3VHi_kptZWiiI9KTdgE7NVCF-1nqxr2515_o6JWbnGwj5Hee9f5srQ"},
+				{"market_hash_name": "Sticker%20%7C%20PENTA%20Sports%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYpr-rPwZzw_zaZS596tO_mL-HluXzNvWHwzxVscEh2uuZo9mg2le3-Rc5Zm_yJoKce1Q6Mw7Z81Ltxubvg8e5ot2XnrPrusx8"},
+				{"market_hash_name": "Sticker%20%7C%20Team%20EnVyUs%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYor-kJgJuxerdYgJE49W6q4yKhfDxfbjUw2lX6cMh3L2Vpo2giQS28xdrNj2lctPDdwBqYFCCqATqw7y7jJ-i_MOeCdL8cMk"},
+				{"market_hash_name": "Sticker%20%7C%20TSM%20Kinguin%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYor-kJhRv3_zFeDl96tO_mL-HluXzNvWBwD9QsZInjOqYpdqnjVLk-0Q-MGv3IoTHIAQ-YguD8gK8wLvshZDuot2Xnlg0X_ur"},
+				{"market_hash_name": "Sticker%20%7C%20Virtus.pro%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYoLO3PxJzw-HHTjtN5dCJmIGZkPK6NeiFl29QvJV1jOzDrdym21fs-Rc6YmulIdKdIABqZQ2GrAW5xO_ugIj84soOeujv3A"},
+				{"market_hash_name": "Sticker%20%7C%203DMAX%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEY5b6oKh9f1fzBfQJO7c6xkc7bxvOjNe6DkzkGvZ0nj-rD8Y2sjFHjrkc_Nzr0JdWddAQ_MFHR81e_366x0rOxUMwD"},
+				{"market_hash_name": "Sticker%20%7C%20Cloud9%20G2A%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYtbaqPgM57PXHeDF94N2kk4XFlq_yZOmBwm4CucYl0rqQ8NrxiQDs8xU6YzjwcYOTcw45aV_S_Vm3yfCv28FpJOqn7Q"},
+				{"market_hash_name": "Sticker%20%7C%20Counter%20Logic%20Gaming%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYtbWwJRNlwf_HdjRB09q5nYy0m_bmNL6flWhXu51zjruZp92m31fk_UU6MDymLYbGcwFvaViGrgPryLi5g8Lv6oOJlyWw1RQ22w"},
+				{"market_hash_name": "Sticker%20%7C%20Flipsid3%20Tactics%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYsLasOxRp16D3dzJL4OO6lZKMkrmhNb7XwjNVvcEi2-qZodmm31bhrkpoNWj2LIXEdAA8N1-ErFO8x7y-m9bi69aviGNL"},
+				{"market_hash_name": "Sticker%20%7C%20Keyd%20Stars%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYvb-8Lzhm3PrETjFD_tuz2oPZz_GkMumEkDsDvcQij7nApt3wiQyy8xI9aj2nJoXGdVNoYluGqAKggbC4nBDM0V0"},
+				{"market_hash_name": "Sticker%20%7C%20LGB%20eSports%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYur2nFAFv2v_3fTxQ69n4x9fZkvSiMb-HxGkC6pQl37rE9Nqj3ALh-ENtN27yI9CUegE3MgrUq0_-n7mmJ4g0OA"},
+				{"market_hash_name": "Sticker%20%7C%20Titan%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYorOxKglf1fzBfQJO7c6xkc7TlK-gZrrXwG8JvpNy2rzA9omn2Aft_0duYGv2cdfEJ1A9NwnYq1Xq366x0iPpWjMW"},
+				{"market_hash_name": "Sticker%20%7C%20Vox%20Eminor%20%28Foil%29%20%7C%20Katowice%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulRYX0DbRvCiwMbQVg8kdFEYoLW9Lgpp3fzaTjtN5dCJmIGZkPK6Zu_QkjxQuJIg2r3Cptrz3w3g_xVoYzqmLYbBcVA2M1HS8wC-yO7rhYj84sqf3YSNkA"}
+			]
+		}
+	},
 	"cologne2015": {
 		"ESL": {
 			"quantity": 1,
