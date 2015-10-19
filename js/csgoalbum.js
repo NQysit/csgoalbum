@@ -4,9 +4,8 @@
  * functions loaded with the page
  */
 function onLoad() {
-			
+	setContenVisible("hidden"); //hide content column
     setVersion();
-		
 };
 
 /**
@@ -30,6 +29,9 @@ function initSticker() {
  * checks if the value is a name or an url
  */
 function checkFormSteamID() {
+	
+	setContenVisible("hidden"); //hide content column
+	
 	var steamID = document.getElementById("inputSteamID").value;
 	
 	if(steamID != null && steamID != "") {
@@ -41,7 +43,9 @@ function checkFormSteamID() {
 	}
 	
 	window.steamID = steamID;
+	window.LastCategory = false;
 	getInventory();
+	
 };
 
 /**
@@ -59,6 +63,8 @@ function getInventory() {
 		if(json.success == true) {
 			window.currentinventory = json;
 			spanprofilestatus.innerHTML = "<a href='http://steamcommunity.com/id/" + window.steamID + "/inventory/#730' target='blank'>Inventory</a> loaded correctly";
+			
+			setContenVisible("visible"); //show content column
 		}
 		else {
 			//if json includes error message
@@ -80,6 +86,7 @@ function getInventory() {
 function selectCategory(id) {
 	
 	if(id != window.LastCategory && window.currentinventory != null) {
+		clearHeaderCSS();
 		clearCategory();
 		document.getElementById("categoryName").innerHTML = window.categories[id][0];
 		document.getElementById("category_" + id).classList.add("currentcategory");
@@ -90,10 +97,39 @@ function selectCategory(id) {
 };
 
 /**
+ * forceSelectCategory
+ * force selectCategory function
+ */
+function forceSelectCategory(id) {	
+	window.LastCategory = null;
+	selectCategory(id);
+};
+
+/**
+ * clearHeaderCSS
+ * clears all css files included in head by the script
+ */
+function clearHeaderCSS() {
+    var styles = document.getElementsByTagName('style');
+    var remove_list = [];
+    
+    for(var style of styles) {
+        if (style.innerHTML.includes('Sticker')) {
+            remove_list.push(style);
+        }
+    }
+    
+    for (var r of remove_list) {
+        r.remove();
+    }
+};
+
+/**
  * clearCategory
  * reset selected categories
  */
 function clearCategory() {
+	document.getElementById("categoryName").innerHTML = "";
 	for(var c in window.categories) {
 		document.getElementById("category_" + c).classList.remove("currentcategory");
 	}	
@@ -192,9 +228,9 @@ function searchStickers(id) {
  */
 function checkOwned() {
 	
-	var descriptions = window.currentinventory.rgDescriptions;
-	
+	var descriptions = window.currentinventory.rgDescriptions;	
 	var items = document.getElementById("categoryContent").getElementsByTagName("a");
+	var countowned = 0;
 	for(var i = 0; i< items.length; i++) {
 		var hash = items[i].title;
 		
@@ -202,12 +238,12 @@ function checkOwned() {
 			var market_hash = descriptions[item]["market_hash_name"];
 			if(market_hash == hash || market_hash == decodeURI(hash)) {  
 				document.getElementById(items[i].id).classList.remove("sticker-translucid");
-				
+				countowned++;
 				break;
 			}
 		}
-		
 	}
+	document.getElementById("badge_"+window.LastCategory).innerHTML = countowned + "/" + items.length;
 
 };
 
@@ -229,6 +265,37 @@ function swapAnimated(mode) {
 			document.getElementById("btnSwapOff").classList.add("active");
 		}
 		
+		if(window.LastCategory != false) {
+			forceSelectCategory(window.LastCategory);
+		}
 	}
+};
+
+/**
+ * setContentVisible
+ * show/hide categories list and content
+ */
+function setContenVisible(mode) {
+	document.getElementById("column_left").style.visibility = mode;
+	document.getElementById("column_content").style.visibility = mode;
 	
+	if(mode == "hidden") {
+		clearCategoryContent();
+		clearCategory();
+		clearHeaderCSS();
+		clearCountOwned();
+	}
+};
+
+/**
+ * clearCountOwned
+ * clears badges
+ */
+function clearCountOwned() {
+	document.getElementById("badge_katowice2014").innerHTML = "";	
+	document.getElementById("badge_cologne2014").innerHTML = "";	
+	document.getElementById("badge_dhw2014").innerHTML = "";	
+	document.getElementById("badge_katowice2015").innerHTML = "";	
+	document.getElementById("badge_cologne2015").innerHTML = "";	
+	document.getElementById("badge_cologne2015foil").innerHTML = "";	
 };

@@ -75,11 +75,11 @@
                         <form class="form-inline" action="#" onsubmit="checkFormSteamID()">
                             <div class="input-group ">
                                 <span class="input-group-addon"><i class="fa fa-steam"></i></span>
-                                <input type="text" class="form-control" id="inputSteamID" placeholder="SteamID">                              
+                                <input type="text" class="form-control" id="inputSteamID" placeholder="custom SteamID">                              
                                 <a class="btn btn-inverse input-group-addon" href="#" onclick="checkFormSteamID()"><i class="fa fa-user"></i> Fetch</a>
                             </div>
                         </form>
-                        <small><span id="spanprofilestatus">Import your profile</span></small>
+                        <small><span id="spanprofilestatus">Import your profile. <i>http://steamcommunity.com/id/&lt;ID&gt;</i></span></small>
                     </div>
                     
                 </div>
@@ -90,7 +90,7 @@
             <div class="row">             
             
                 <!-- left column -->
-                <div class="col-sm-3">   
+                <div class="col-sm-3" id="column_left">   
                          
                     <!-- confugre -->                    
                     <div class="row container"> 
@@ -101,44 +101,42 @@
                         </div>
                     </div>
                     
-                    <br />
                     
                     <!-- category list -->
                     <div class="list-group">
+                        <h4 class="list-group-item">Tournaments</h4>
                         <a href="#" id="category_katowice2014" onclick="selectCategory('katowice2014')" class="list-group-item">
                             EMS ONE Katowice 2014
-                            <span class="badge">0/34</span>
+                            <span class="badge" id="badge_katowice2014"></span>
                         </a>
                         <a href="#" id="category_cologne2014" onclick="selectCategory('cologne2014')" class="list-group-item">
                             ESL One Cologne 2014
-                            <span class="badge">0/14</span>
+                            <span class="badge" id="badge_cologne2014"></span>
                         </a>
                         <a href="#" id="category_dhw2014" onclick="selectCategory('dhw2014')" class="list-group-item">
                             DreamHack Winter 2014
-                            <span class="badge">0/14</span>
+                            <span class="badge" id="badge_dhw2014"></span>
                         </a>
                         <a href="#" id="category_katowice2015" onclick="selectCategory('katowice2015')" class="list-group-item">
                             ESL One Katowice 2015
-                            <span class="badge">0/14</span>
+                            <span class="badge" id="badge_katowice2015"></span>
                         </a>
                         <a class="list-group-item">
                             ESL One Cologne 2015
-                            <span class="badge">0/14</span>
                         </a>
                         <a href="#" id="category_cologne2015" onclick="selectCategory('cologne2015')" class="list-group-item">
-                            > Regular
-                            <span class="badge">0/14</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Regular
+                            <span class="badge" id="badge_cologne2015"></span>
                         </a>
                         <a href="#" id="category_cologne2015foil" onclick="selectCategory('cologne2015foil')" class="list-group-item">
-                            > Foil
-                            <span class="badge">0/14</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Foil
+                            <span class="badge" id="badge_cologne2015foil"></span>
                         </a>
-                        
                     </div>
                 </div>
                 
                 <!-- right column -->
-                <div class="col-sm-9">
+                <div class="col-sm-9" id="column_content">
                     
                     <!-- stickers -->
                     <div class="col-sm-12">
