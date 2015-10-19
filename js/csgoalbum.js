@@ -113,9 +113,9 @@ function clearHeaderCSS() {
     var styles = document.getElementsByTagName('style');
     var remove_list = [];
     
-    for(var style of styles) {
-        if (style.innerHTML.includes('Sticker')) {
-            remove_list.push(style);
+    for(var i = 0; i < styles.length; i++) {
+        if (styles[i].innerHTML.includes('Sticker')) {
+            remove_list.push(styles[i]);
         }
     }
     
