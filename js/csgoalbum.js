@@ -58,10 +58,12 @@ function getInventory() {
 	var spanprofilestatus = document.getElementById("spanprofilestatus");
 	spanprofilestatus.innerHTML = "Loading...";
 	window.currentinventory = null;
+	window.inventoryloaded = false;
 
 	$.getJSON(url, function(json) {
 		if(json.success == true) {
 			window.currentinventory = json;
+			window.inventoryloaded = true;
 			spanprofilestatus.innerHTML = "<a href='http://steamcommunity.com/id/" + window.steamID + "/inventory/#730' target='blank'>Inventory</a> loaded correctly";
 			
 			setContenVisible("visible"); //show content column
@@ -77,6 +79,14 @@ function getInventory() {
 			}
 		}
 	});
+	
+	//if after 5 seconds inventory isn't loaded
+	setTimeout(function(){
+		if(!window.inventoryloaded) {
+			spanprofilestatus.innerHTML = "We are not able to fetch your inventory. Check your SteamID or try again later."
+		}
+	}, 5000);
+	
 };
 
 /**

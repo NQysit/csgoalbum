@@ -1,6 +1,7 @@
 window.CurrentVersion = "v0.1 beta"; //app version
 window.LastCategory = false; // last category filtered
 window.steamID = ""; //current steamID being analyzed
+window.inventoryloaded = false;
 window.currentinventory = null;
 window.animatedstickers = true;
 
