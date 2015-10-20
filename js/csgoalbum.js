@@ -124,7 +124,7 @@ function clearHeaderCSS() {
     var remove_list = [];
     
     for(var i = 0; i < styles.length; i++) {
-        if (styles[i].innerHTML.indexOf('Sticker')>=0) {
+        if (styles[i].innerHTML.indexOf('Sticker') >= 0) {
             remove_list.push(styles[i]);
         }
     }
