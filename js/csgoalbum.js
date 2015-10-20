@@ -174,13 +174,8 @@ function searchStickers(id) {
 				form.className = "form-horizontal ng-pristine ng-valid";
 				var fieldset = document.createElement("fieldset");
 				var legend = document.createElement("legend");
-				legend.innerHTML = subcategory + " ";
-				var span = document.createElement("span");
-				span.className = "badge";
-				span.innerHTML = "0/" + this.quantity;
-				legend.appendChild(span);
+				legend.innerHTML = subcategory;
 				fieldset.appendChild(legend);
-				
 				
 				for(var i = 0; i < this.quantity; i++) {					
 					var cssname = id + subcategory + i;
