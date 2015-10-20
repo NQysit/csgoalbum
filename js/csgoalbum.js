@@ -83,7 +83,7 @@ function getInventory() {
 	//if after 5 seconds inventory isn't loaded
 	setTimeout(function(){
 		if(!window.inventoryloaded) {
-			spanprofilestatus.innerHTML = "We are not able to fetch your inventory. Check your SteamID or try again later."
+			spanprofilestatus.innerHTML = "We are not able to fetch your inventory. Check your SteamID or try again later.";
 		}
 	}, 5000);
 	
@@ -124,7 +124,7 @@ function clearHeaderCSS() {
     var remove_list = [];
     
     for(var i = 0; i < styles.length; i++) {
-        if (styles[i].innerHTML.includes('Sticker')) {
+        if (styles[i].innerHTML.indexOf('Sticker')>=0) {
             remove_list.push(styles[i]);
         }
     }
