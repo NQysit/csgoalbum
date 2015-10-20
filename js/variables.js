@@ -1,4 +1,4 @@
-window.CurrentVersion = "v 0.0.6"; //app version
+window.CurrentVersion = "v0.1 beta"; //app version
 window.LastCategory = false; // last category filtered
 window.steamID = ""; //current steamID being analyzed
 window.currentinventory = null;

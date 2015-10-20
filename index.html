@@ -61,9 +61,9 @@
             </div>
         </div>
         
-        <div class="container">
+        <div class="container shadowdiv">
             <div class="page-header">
-                <h1>CS:GO album <small>beta</small></h1>
+                <h1>CS:GO album <small><span id="spanCurrentVersion" class="label label-default"></span></small></h1>
             </div>
             
             <div class="row"> 
@@ -100,7 +100,6 @@
                             <a class="btn btn-default btn-xs" href="#" onclick="swapAnimated(false)" id="btnSwapOff">off</a>
                         </div>
                     </div>
-                    
                     
                     <!-- category list -->
                     <div class="list-group">
@@ -145,30 +144,21 @@
                                 <h4 class="panel-title" id="categoryName"></h4>
                             </div>
                             <div class="panel-body" id="categoryContent">
-                                
                 
                             </div>
                         </div>        
                     </div>
                 </div>
             </div>
-            
-            <!-- version -->
-            <div class="row">
-                <div class="version">
-                    <a href="changelog.html"><code><span id="spanCurrentVersion"></span></code></a>
-                </div>
-            </div>
         
             <div class="footer">
-                <span>
                     csgo-album.com is not affiliated with Valve Corporation in any way.
                     <br />
                     csgo-album is developed by <a href="http://nqysit.com" target="_blank">NQysit.com</a>
                     <br />
                     <a href="privacy-policy.html">Privacy policy</a>
-               </span>
             </div>
+            
         </div>
         
         <!-- scripts -->
