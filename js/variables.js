@@ -12,7 +12,9 @@ window.categories =
 	'dhw2014': ["DreamHack Winter 2014"],
 	'katowice2015': ["ESL One Katowice 2015"],
 	'cologne2015': ["ESL One Cologne 2015"],
-	'cologne2015foil': ["ESL One Cologne 2015 (Foil)"]
+	'cologne2015foil': ["ESL One Cologne 2015 (Foil)"],
+	'dhcluj2015': ["DreamHack Cluj-Napoca 2015"],
+	'dhcluj2015foil': ["DreamHack Cluj-Napoca 2015 (Foil)"]
 };
 
 window.steamimages_url = "http://steamcommunity-a.akamaihd.net/economy/image/";

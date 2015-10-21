@@ -602,5 +602,213 @@
 				{"market_hash_name": "Sticker%20%7C%20SmithZz%20%28Foil%29%20%7C%20Cologne%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQ0DfQOqohZ-CBhJnLANopbesPw96yczOfjRO09C3hoeO2fOnMbqAxWlXucYmjO2Vptml3Qbs8hFqY2j6LNeVcAZvY1vU_lG8wr3xxcjrDZIDdik"}
 			]
 		}
+	},
+	"dhcluj2015": {
+		"DreamHack": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Ninjas in Pyjamas": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Natus Vincere": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Virtus.Pro": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"G2 Esports": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Team SoloMid": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Team EnVyUs": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Fnatic": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Luminosity Gaming": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Team Dignitas": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Counter Logic Gaming": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Vexed Gaming": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Flipsid3 Tactics": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Team Liquid": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"mousesports": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Cloud9": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Titan": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		}
+	},
+	"dhcluj2015foil": {
+		"DreamHack": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Ninjas in Pyjamas": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Natus Vincere": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Virtus.Pro": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"G2 Esports": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Team SoloMid": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Team EnVyUs": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Fnatic": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Luminosity Gaming": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Team Dignitas": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Counter Logic Gaming": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Vexed Gaming": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Flipsid3 Tactics": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Team Liquid": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"mousesports": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Cloud9": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		},
+		"Titan": {
+			"quantity": 0,
+			"stickers": [
+				
+			]
+		}
 	}
 }
