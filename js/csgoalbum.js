@@ -304,3 +304,11 @@ function clearCountOwned() {
 	document.getElementById("badge_cologne2015").innerHTML = "";	
 	document.getElementById("badge_cologne2015foil").innerHTML = "";	
 };
+
+function divtocanvas() {
+	html2canvas(document.getElementById("divContentAlbum"), {
+    	onrendered: function(canvas) {
+        	document.body.appendChild(canvas);
+    	}
+    });
+};
