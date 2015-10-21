@@ -180,6 +180,7 @@ function searchStickers(id) {
 				for(var i = 0; i < this.quantity; i++) {					
 					var cssname = id + subcategory + i;
 					cssname = cssname.replace(/\s+/g, ''); //delete spaces from subcategory name
+					cssname = cssname.replace(/\./g, ''); //delete . from subcategory name
 										
 					var a = document.createElement("a");
 					
@@ -307,6 +308,9 @@ function clearCountOwned() {
 
 function divtocanvas() {
 	html2canvas(document.getElementById("divContentAlbum"), {
+		proxy: "http://html2canvas.appspot.com/query?callback=?",
+		logging: true,
+		taintTest: false,
     	onrendered: function(canvas) {
         	document.body.appendChild(canvas);
     	}
