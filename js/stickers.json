@@ -605,209 +605,369 @@
 	},
 	"dhcluj2015": {
 		"DreamHack": {
-			"quantity": 0,
+			"quantity": 1,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20DreamHack%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDXW15LKQVFsb_rcgYy0aadJzlGvN2zxdDbxvL3Y-yIzm0G7JQp2eyW89qh2waw_UpuMnezetExpU_osw"}
 			]
 		},
 		"Ninjas in Pyjamas": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDdWk1LKQVFsb_rKFAxgKrKIz8TtITikNHblKTyZeKFxDsEusMk3eiV89us2QLlrUBvY3ezetFPbJiFww"},
+				{"market_hash_name": "Sticker%20%7C%20Xizt%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLPQ1NooWpKhVn1r2edW4avIrnzYKIk_X3Zr_Qxm9U6sNz2O-RrN2s0FGx-0I_NTvycY7HbEZgNpgiECIO"},
+				{"market_hash_name": "Sticker%20%7C%20GeT_RiGhT%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIgFDpLOiIxNf3_LadjgMtY3jxNiNkabyMb2DwzlT7MAg37iS9tvzilXgqkY6MGzwI9OdegdoMEaQpAavZyKu6A"},
+				{"market_hash_name": "Sticker%20%7C%20friberg%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIxZetL-3LDhs0uHPdHMSv4-1xdiPxKatML7QxjgE68Ynj7yZotSj3wC18xVrYT-hIdKXc1c2fxiOrb3ZMd-m"},
+				{"market_hash_name": "Sticker%20%7C%20f0rest%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwtFs6mxFAthwfTNPzgbuIW0ldbbz_KlYeLQwD9T7JUm3L2S8IihjQLkrkQ_Yjr0I4aWcFIgIQaHkYCkzYc"},
+				{"market_hash_name": "Sticker%20%7C%20allu%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJAhbo4WpKhVn1r3OIWgau4W3xdCOwPWhN76EwWgCucAjibmQrdv3jg3h-hJoaz2icY6WbEZgNmh9_0px"}
 			]
 		},
 		"Natus Vincere": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Natus%20Vincere%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDdUkt9GghWpL2gZVRj0qHJdG4Q6N_vwdCIlqHwa--DlTgBuJYmjO3F9N-m2gW380A5ZzjtZNjC6b8qtMs"},
+				{"market_hash_name": "Sticker%20%7C%20Zeus%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLPwFCpYWpKhVn1r2YdDwbuozuw4PfxKKmYO-Fzm8I65By3rmRpdms3AHk_EBtamzzLIWVbEZgNlNM0_18"},
+				{"market_hash_name": "Sticker%20%7C%20seized%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgFerL-hFAthwfTNP2sTu4znltHZwqanYemBkmoA65En3b_Apt2g2QTj-Uc5YGihJISWdlUgIQaHw9XYDAM"},
+				{"market_hash_name": "Sticker%20%7C%20GuardiaN%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIhFWpL6sKglf3_LadjgMtYywzYPTxfGnNu_VwTtS7JAh3b6Qp9St21ftqkRuY2D7IoPAegc3ZEaQpAa1Y8gVwQ"},
+				{"market_hash_name": "Sticker%20%7C%20flamie%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwhWu7OgFAthwfTNPzsb74-zktLTkfWiY76Jkm0G7sEp3--Wodqm3wbnr0I9Mj_3J4DHeg4gIQaHTcJj7G0"},
+				{"market_hash_name": "Sticker%20%7C%20Edward%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIABAt6ihFAthwfTNP2tAvNrmxoSOwKSlZuuHlDwFvpZwib3F8NWs0AHm80I9ZmyicNXEdgQgIQaHSm5Ow0Q"}
 			]
 		},
 		"Virtus.Pro": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Virtus.Pro%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDFQ2J4JBZQs_SnfQYy16KQJ2pAtY-0kNjck6egMu7SlW0FucYn272Uodug2gaxrkVtfSmtc_MuoMOa"},
+				{"market_hash_name": "Sticker%20%7C%20TaZ%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLMQVNibakOQBlnaOeJWoU793gx4SNwKKhZOnQkzsAvMZz37-UpNyjiwLgqBdoaz3ydtSLMlhpGj3K84g"},
+				{"market_hash_name": "Sticker%20%7C%20Snax%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgpWroWpKhVn1r2RI28V6o6wltLck6CnZ7-AlTMFuJcm2buVrN2ijgyy_hBlY27xdYPGbEZgNv69SrQy"},
+				{"market_hash_name": "Sticker%20%7C%20pashaBiceps%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNQVEvruaJwZy1PaGdGwb6tmyzdjYwK-iNr_SlT0H6pZy373H99-s3Ayw80o9Njqid4GcdBh-Pw9_lS_f4w"},
+				{"market_hash_name": "Sticker%20%7C%20NEO%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKwFYibakOQBlnauadWRGvIvmwIaNw6P2ZOiClTkF68Yo3byT94iiigay8kNqY2rxIoaLMlhpRc1R8oY"},
+				{"market_hash_name": "Sticker%20%7C%20byali%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJx1WurOaJwZy1PaGcGQQ74y3xoKOxaP3Yb_TlTIBvcQm3LmT8YqkilCwrRBqMm7xIdTHdBh-Pw9U8hQTiw"}
 			]
 		},
 		"G2 Esports": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20G2%20Esports%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDUAWJ4JBZQs_T2KVRj0qOfcG8R6Y7kkdOIxfOlMLjSw2hUsMAl2rqW9I_2iwLs_RdlfSmtc58TSJDs"},
+				{"market_hash_name": "Sticker%20%7C%20jkaem%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLw9Ws7eaJwZy1PaGKWVEuoW0xdTcxq6kY7iCxjNS7pMm3LuVod-k21Dj-RZrYWDxd4TGcxh-Pw8tzoYM9w"},
+				{"market_hash_name": "Sticker%20%7C%20rain%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNwVeuIWpKhVn1r2eKTkRtIvikILSlKGnMr-ExGlVvJwm3LiWoI6n3VLj-EY4MWGicIPAbEZgNq1qpTEY"},
+				{"market_hash_name": "Sticker%20%7C%20Maikelele%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKAVevb-pLgtl7P_JYzpHot7iwITSkqLwNeuJxzMCvJEgjr-WrNms0FKwqEJqY2_6IoOVIQ85Yg3Oug_pPpu4VbM"},
+				{"market_hash_name": "Sticker%20%7C%20fox%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwtPibakOQBlnaCdcjgS7463xIOKzqehMLmJwzkJsMF13u2ZpNqiigDlqkpqamv0JNCLMlhpDTL6jNw"},
+				{"market_hash_name": "Sticker%20%7C%20dennis%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIQFZuLO2FAthwfTNPzhE7djmzIOIxfX1auvSzmpXvpAl37HEptSi3VLkqkBlZj2lIYHHJwMgIQaH1kOnhdQ"}
 			]
 		},
 		"Team SoloMid": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Team%20SoloMid%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDHQFJ4Kjtbt6iiLklj0PGQdGsU7Y-0kIaIxfKsN-iBxjpQ7ZUh2b6Qpd700FDm-ERpYm2mOsbLJePdhGEL"},
+				{"market_hash_name": "Sticker%20%7C%20Xyp9x%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLPR1H76KaJwZy1PaGJW0X6YnmwdDdwKaiMr-JwGhSuJEni-qX84j32AfmrUZuZ22icoeVJxh-Pw9zQqUtDA"},
+				{"market_hash_name": "Sticker%20%7C%20karrigan%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLgVFpLOiKglf3_LadjgMut3glYSPlvOsY72Fwj4B65Ek3LqX9I2s3gfl-UE-YTr0dYTDJAM9NEaQpAZtTusZyQ"},
+				{"market_hash_name": "Sticker%20%7C%20dupreeh%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIRFHpL-gIzhs0uHPdHMR7t_ukYaPwaGiariExT0C6pQj0u_FpNui0QXk80A9YjinLIaSdlU8fxiOrelyKClV"},
+				{"market_hash_name": "Sticker%20%7C%20device%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIQFBv7mgFAthwfTNPz9A6I6wzNnSxKWla7nQk2gBvp0nj7yVoorwjVKy8kpvYjzzd9WccgQgIQaHPDlWqMk"},
+				{"market_hash_name": "Sticker%20%7C%20cajunb%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJgVdo7SnFAthwfTNP2kUv4_kwtCIwvPwNumHk20DvZRwjr3E896k0A3nrkBvNzz1INWXcwIgIQaHfBJnFfs"}
 			]
 		},
 		"Team EnVyUs": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Team%20EnVyUs%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDdRWJ4JBZQs_TzeARigfWeIWVA6IizkNKIkqPyZrjUwjwAv5d107uQ946kjgLn-0s4fSmtc9f6cMpW"},
+				{"market_hash_name": "Sticker%20%7C%20NBK-%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKwZcibakOQBlnaqaIz8Q6YrhldKPk6-lMuqAwT0DsMYh0rCQodXw2gDm-kBkMTygJNKLMlhpF5pwank"},
+				{"market_hash_name": "Sticker%20%7C%20kennyS%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLgFZuKO2FAthwfTNP28b7trmwNnTlfb3ZbnSlzIAsZ0n37uS8Nymigfmr0FrZj30IoeRe1UgIQaHsDtEsd8"},
+				{"market_hash_name": "Sticker%20%7C%20kioShiMa%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLg1YpbKsJgZf3_LadjgMtI6wxISNlfSgMu2JwDJUuZAk2L-S9t6hjQXkrkdkazyhIdCSJwA8N0aQpAbK8X7v9w"},
+				{"market_hash_name": "Sticker%20%7C%20Happy%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLQVHpqOaJwZy1PaGcDtGtd20woKKk6ahMOOExGoAuccg2rCZ94j331C2_UZvY2r2coeSIxh-Pw-dDWfZjw"},
+				{"market_hash_name": "Sticker%20%7C%20apEX%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJBRSroWpKhVn1r2cI2gVvd_jkoHfzqL1YO6JxW4JscMm2O2VrNvx0QPl_RZqYz_7dtLEbEZgNk_JZfhh"}
 			]
 		},
 		"Fnatic": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDVXUl3GghWpL2gZQM00qObdG8SuIi0kNTcwKH3Nb_Vzm1XuMAm3b-Q9ojx2VXh8kBrMGntZNjCuL3ie4M"},
+				{"market_hash_name": "Sticker%20%7C%20pronax%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNRZYuLu9FAthwfTNPz5BtI7kzNPfz6Kjar7SwG8G65Ig2eyW89Wtilfh_UE5MmCnIYbDJgEgIQaHHXHRzjA"},
+				{"market_hash_name": "Sticker%20%7C%20olofmeister%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKghYsLegIhR01uH3fTxQ69n4zdCKkvKgNuPXzzgA7JJw2LnD99mg2wXm_kRoYm-mIoGddgM3N1uF80_-n7m4v1QzPw"},
+				{"market_hash_name": "Sticker%20%7C%20KRIMZ%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLhZeu6CaJwZy1PaGJm1GvN60ltbZxqanMLrQwTkE6Zch3ejFo9ihigHh_0RtMmn7IIacdRh-Pw8BcnpVVw"},
+				{"market_hash_name": "Sticker%20%7C%20JW%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLxNouru3LAIui_KYJjwV7YS1ktOOlKSia7iBkz1V7pR3jLCQotyt0VbmqRE4MDv0IpjVLFELh4wKRw"},
+				{"market_hash_name": "Sticker%20%7C%20flusha%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwhCpbKkFAthwfTNP2lAvIm0wYHck_SmYeuJlDsA6ZBw3ryX8Nzxjle1_0RsMm_yItKddFcgIQaHiPGvDQ8"}
 			]
 		},
 		"Luminosity Gaming": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Luminosity%20Gaming%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDfRlB9GghWpL2gZVYxi6XOKWgT6Inmw9fbxvHwNuuBzm1XuMAoiLDEpdSl2Abh_hVvN2ztZNjC6o7kFcY"},
+				{"market_hash_name": "Sticker%20%7C%20steel%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNhBSs7aaJwZy1PaGd2QQvI2wldeNwvWgZuKIkzxS6ZEoj7qUpIj2jgKxqUZkYGr3IY-Rdxh-Pw9yspauwg"},
+				{"market_hash_name": "Sticker%20%7C%20fer%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwFFibakOQBlnfCecG4a6Y_mldOKz_Kja--DwW0A65wl2bqS9tyn2AWw_kdqZz_2IdeLMlhpbua5mY0"},
+				{"market_hash_name": "Sticker%20%7C%20FalleN%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwVbur-rFAthwfTNPzsU6ozkwtncxqDwMb2Fx2gH7sF12bCV846k2A3iqkRkMD2lJNPEJwIgIQaHcACQKvw"},
+				{"market_hash_name": "Sticker%20%7C%20coldzera%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJgtbsqCgOQZf3_LadjgM6ovgwdCJkq6tZLiBzmgCv50g0rCZoNigiwzjr0tpam30LNKRJAI-YEaQpAYHBzj68g"},
+				{"market_hash_name": "Sticker%20%7C%20boltz%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJwtboqCaJwZy1PaGIWoR7Y7mw9KOkfH3YLrUzjwEsJIgj-iWrdmkjAO3-0c5Zmr3J9XEdBh-Pw9AyiJ0aw"}
 			]
 		},
 		"Team Dignitas": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Team%20Dignitas%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDXWlpLKQVFsb_rKVNmhvGbIz8Ruo60x4TazqahN-mFzj1VucEj3uzFpNWj3FXg-UM5YHezetFbQ7L2NQ"},
+				{"market_hash_name": "Sticker%20%7C%20tenzki%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLMQFZrLGsFAthwfTNPz4b7YTmxdLYxqX3N-2DxTNS6ZwnjuyX9tvzjQG3-hU5YW31coTAclAgIQaH-wjomEg"},
+				{"market_hash_name": "Sticker%20%7C%20Pimp%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNQ1apoWpKhVn1r2Zdz8RuY_gltmKxPOsZO-HxW0A6ZQn0rrHpd-sjlLiqUdrZzigd4fHbEZgNsszJ73i"},
+				{"market_hash_name": "Sticker%20%7C%20MSL%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKBdbibakOQBlnaXJdG4V79nhkYOOkvWnZe_UlzgD7pIo3uuQoN3x3AXs-BFrNmzxdYOLMlhpG_JuXqE"},
+				{"market_hash_name": "Sticker%20%7C%20Kjaerbye%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLg5Ws6inMgJf3_LadjgMvIiwzdKOk6GgNr6AkG8DuZIn3L2W9Nmg3wy2_UVlMm3zd4aVew5vNUaQpAb5i5QaRw"},
+				{"market_hash_name": "Sticker%20%7C%20aizy%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJA1Nr4WpKhVn1r2bdWVBvdq1w4HclPWnYLrQz2gDuZwmibyVo4n22AfjrkA5YGz7doWSbEZgNqqAtAG-"}
 			]
 		},
 		"Counter Logic Gaming": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Counter%20Logic%20Gaming%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDQX1pLKQVFsb_rewFjhfHMIGgWtIzvwYPSx66iZOKAxz1TvsYn2LvCrY6i2gPm_UU-NXezetHGkQzdhg"},
+				{"market_hash_name": "Sticker%20%7C%20tarik%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLMQVFv7GaJwZy1PaGc2tG79mwxNGOzvT3MezXkDNT6sQk0rDF942l2FK2rUA6ZD-hd9eRIxh-Pw8faaWN3Q"},
+				{"market_hash_name": "Sticker%20%7C%20jdm64%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLwBa4O6aJwZy1PaGc2gR6Yy1kYLZwaOkMOqBw20BvJRwiO2Trdyk0VCwqkc6ZDrwLdeQIxh-Pw-ihRlk4Q"},
+				{"market_hash_name": "Sticker%20%7C%20hazed%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLQVNs76aJwZy1PaGI2pAu4SykNXaxq73Yb-DkG0H68ch3rmZ89mljAPt-hE-Z2yicdWUchh-Pw-xnvfxEg"},
+				{"market_hash_name": "Sticker%20%7C%20FNS%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwpEibakOQBlnfHMJ2QQ6I7jkteNk6b2ZOqCxW8IupEljuuUpYisjVHnrkU4ajjzLYKLMlhpm6V6N_0"},
+				{"market_hash_name": "Sticker%20%7C%20reltuC%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNwFboq-mFAthwfTNP2UVtd3vwoPSk6P3ZuuAkj4G7cEi0riXod-l2FLh_EFqMGDzJYeQdQMgIQaH3eXnXbk"}
 			]
 		},
 		"Vexed Gaming": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Vexed%20Gaming%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDFVkVLKQVFsb_reVdmh6uYKGoTuY-0xtLYwaKlZeOFkD4AvMYmjL6ZrI72jlDn_kA6ZXezetEtVclleg"},
+				{"market_hash_name": "Sticker%20%7C%20rallen%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNwVbur-rFAthwfTNP2wTv9_nwoKJwvP2NbqDwjoHvMZy0-yV8970ig2yrxdrMGryddPHegcgIQaHMJ-nxQc"},
+				{"market_hash_name": "Sticker%20%7C%20peet%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNQFSooWpKhVn1r2QJWtAvYXikIGKzvPyNb3XxDtUvZwk3L2RrN-giQLg-0RqY2n6J4acbEZgNqbKEy1i"},
+				{"market_hash_name": "Sticker%20%7C%20Hyper%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLR1Hs6iaJwZy1PaGdDhDvdqwwtWKwfGlZ-_SwGgI7sAj0rHCoNuh3FHtrUY6ajzwcNSUdhh-Pw-b5VtBkg"},
+				{"market_hash_name": "Sticker%20%7C%20GruBy%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIhZCtKOaJwZy1PaGIjgUvtm1wNTZxKf1Nu-Gzz0JuJcjibGQ942tjAbn_Bc-Y2D3Jo6SdBh-Pw83yS-87Q"},
+				{"market_hash_name": "Sticker%20%7C%20Furlan%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIxFFururFAthwfTNPzwSv9m3zdbfkqatNrqDxGkH6pckieyYoN3wiVfnqkdlaz3zIYXGIw8gIQaHAm01rFI"}
 			]
 		},
 		"Flipsid3 Tactics": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Flipsid3%20Tactics%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDVX1RkGghWpL2gZVVm16DOdT5G7t3kxobawPakN-uIwzgDv5Ap0rmVrNyk3FG1-EA-MmjtZNjCmcnHFc4"},
+				{"market_hash_name": "Sticker%20%7C%20WorldEdit%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLMgtFur6gLw507P_JYzpHot-3zdHalKGsar2ClGgJvJNy07iXoo6j3gTlqUVoZz30JNecelA6ZArOug_p17iR8Zw"},
+				{"market_hash_name": "Sticker%20%7C%20markeloff%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKAVFvb-pJAFm7P_JYzpHotizktnexqWla-_Tl2oB7ZYg3e-Qoorx3Afs_RdpYD3ydoWWcVJsYgrOug_p7Ay-4PY"},
+				{"market_hash_name": "Sticker%20%7C%20DavCost%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIQVBtbW2Pzhs0uHPdHMS6d_nzYKNz67xZ-mJz28Cv5B027qRod-j2gXh-ERrYGimJ46RdlJqfxiOrQ-TPJLA"},
+				{"market_hash_name": "Sticker%20%7C%20bondik%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJwtZsrOuFAthwfTNP2sQvIuwwtaKkab1ZuyHz2hUvJAk3buY9Nii3QDj-UI_NzvxIYOQdAMgIQaHCddEEXw"},
+				{"market_hash_name": "Sticker%20%7C%20B1ad3%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJ1VWsumaJwZy1PaGKTwT6oqywNWPlqegYO_VlGhX7pB13--S8Yin2lfm_xU5MGj3ctTBIxh-Pw_LgxwjlA"}
 			]
 		},
 		"Team Liquid": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Team%20Liquid%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDfWkxLKQVFsb_rflQx1qSbcmkXtYmwx9fakaT1Y-vXwjpT6pMp2LnF99_20QPhqUc-MHezetH0mLlQtQ"},
+				{"market_hash_name": "Sticker%20%7C%20nitr0%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKw1DpLWaJwZy1PaGd24Q7ozuzYTblKWsMbrVlWpT6pB13b-UrY-liQa2qBFoZDr6IteSdBh-Pw_wIJ0ogQ"},
+				{"market_hash_name": "Sticker%20%7C%20Hiko%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLQ1cuYWpKhVn1r2YJj8W6oTiwtmJlfXyNeOCw21Vv5Qi0u-Z89WjjQ3h_URoYm2hI9WSbEZgNsxkd8rW"},
+				{"market_hash_name": "Sticker%20%7C%20FugLy%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIxFQuqOaJwZy1PaGKDgVvt7uzNDfxaWnar3QxGlX7sMm3L2S8d_wjVDg-EBvZzzzJILDJhh-Pw9Kr0pwZA"},
+				{"market_hash_name": "Sticker%20%7C%20EliGE%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIAhesb-aJwZy1PaGJjkQv4-1w9fewqetZuqIkmgCvZAh2-3Drdmk3FLkqko9ZD-iddKWJxh-Pw8uSey5VQ"},
+				{"market_hash_name": "Sticker%20%7C%20adreN%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJABFs7SaJwZy1PaGd2kX6YXnwoGKxaCkYLiCzzwIusMhib6T8d-i2gO3rko6Nm_2dtKVIxh-Pw9mVhrkig"}
 			]
 		},
 		"mousesports": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20mousesports%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDeQE5LKQVFsb_rfwU2g6SbcG9GvYzmwdOJlKOjYr2DxmkJ7sNw37uZ89Xx0VHh_ktqMXezetHViRqQzw"},
+				{"market_hash_name": "Sticker%20%7C%20NiKo%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKw1cuYWpKhVn1r2adT8R6t-0w4KPkaSgY7qDzm0GucByibvE8Yin2VXi_EJuZWuhco_HbEZgNiGaq4Vq"},
+				{"market_hash_name": "Sticker%20%7C%20nex%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKwFPibakOQBlnaqecmlHuou1kNPbw_KjYeKEzzMBv5Ap2LnHotj0jQDg_RE4a2nxLNCLMlhpgygycvg"},
+				{"market_hash_name": "Sticker%20%7C%20gob%20b%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIgtVtIWpKhVn1r2RdW1HvY7jwdjTk6-na-yFl2oGuJdwiOuQ9Imt21C1rRU9MDqhd4DEbEZgNhijkVBV"},
+				{"market_hash_name": "Sticker%20%7C%20denis%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIQFZv6maJwZy1PaGIj4Tu4TvlYPew_GmarqEwzMIuZBwj7GT9N_00FLmqhJqaz2mJoLBJhh-Pw8ceeLqnA"},
+				{"market_hash_name": "Sticker%20%7C%20chrisJ%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJgxFv6mvFAthwfTNP2watdmyx4OOxfPwMeyCxz5Sup0liO-R8d7w3lC3-UtkNjqldoLBdlUgIQaHW_ZILow"}
 			]
 		},
 		"Cloud9": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Cloud9%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDQCmJ4JBZQs_ShKQExg_KQdWoW6IjhzNHTlfb1Ne_XlDxTv5B32ryQo96ijAGx-kdpfSmtcz1-cNAg"},
+				{"market_hash_name": "Sticker%20%7C%20n0thing%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKwtDvrOrLDhs0uHPdHMSuI3uwdONz6-jauPUkDMEuMQk3L-UrIn22QPm_UQ_YjjzLIGddARtfxiOrZb_PpL9"},
+				{"market_hash_name": "Sticker%20%7C%20Skadoodle%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNg9WsrWqLwtl7P_JYzpHotrixITewqGiNbiAwzIBsJEnju-WpdmjiwTgrxY_amz3JoSQJlc7M1vOug_pHiQeJrg"},
+				{"market_hash_name": "Sticker%20%7C%20shroud%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgxFua-hFAthwfTNP2sRu4W1xdiNxqGnNuyJk2gJ68cj3uiToN7ziwOxrUY4ZzzyItLDcA4gIQaHXs6TyfM"},
+				{"market_hash_name": "Sticker%20%7C%20seang%40res%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgNWpL-2FAthwfTNP2wWtY_vxITawqXyYb2FkzgE6Z0ii7vDoo2n0FDt80Q5Yz36Io-UcA8gIQaH8cyTrnE"},
+				{"market_hash_name": "Sticker%20%7C%20freakazoid%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIxZSt7GkMQhp18zEcC9F6ZLvw9DZkvKgNrnQxzxT7Zd0i-yW9tug2wK2r0Q6MTjxdo6SdgM2MArU5BHglhnaVhmD"}
 			]
 		},
 		"Titan": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Titan%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDHWklLKQVFsb_rfF5mhqCZJ2lGut_lkNDTxKT1NuqEzzxXvsQl07zEoN2s2AO2qBZtZnezetFmrXvRYw"},
+				{"market_hash_name": "Sticker%20%7C%20SmithZz%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgleorK_MThs0uHPdHMVtYXhx9OJlPGjZe2Il28E7pQk3brFrdqjjgHir0plYWmlcYaUdQ44fxiOrW8WEAvW"},
+				{"market_hash_name": "Sticker%20%7C%20shox%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgxYroWpKhVn1r3JJT4X6tm0zNaJxqfyMeuCwDMCv5B1iL-RpYjzjQTiqBdpZWylddTEbEZgNlSvlelG"},
+				{"market_hash_name": "Sticker%20%7C%20ScreaM%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgdFs7uoFAthwfTNPzlEu9jlktSJz6CmMO_XkmoCvJRw0urDotyl2VKw-EBra237JYOWcVcgIQaHW942lZI"},
+				{"market_hash_name": "Sticker%20%7C%20RpK%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNxRcibakOQBlnfWaKG9GtY7iloSPx_L2Y-mGl29Q7ccl3-iTot2h2lK1qhdlYG-lI9CLMlhpWgiMbL0"},
+				{"market_hash_name": "Sticker%20%7C%20Ex6TenZ%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIBwBor-rMThs0uHPdHMT7o_kzYXbz6WsNuzSkDIFvZAk2rnFpoim2wHt8kE_ZzyhcdeUIQA7fxiOrb5TjBDp"}
 			]
 		}
 	},
 	"dhcluj2015foil": {
 		"DreamHack": {
-			"quantity": 0,
+			"quantity": 1,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20DreamHack%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDXW15LIwteuoWpKhVn1r2RcGpBuN_globdwKHwauOGxD0J6ZYi27CR9o-h3gDm_0RqYGD2INOTbEZgNqZ5BIUU"}
 			]
 		},
 		"Ninjas in Pyjamas": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDdWk1LIwteuoWpKhVn1r2QIW4avY7kwobfkaCiYeKGxD0Ivcd03OuT84r0igHt-EA9NWD3J4XBbEZgNrZxW-wU"},
+				{"market_hash_name": "Sticker%20%7C%20Xizt%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLPQ1NooWjJA5s7P_JYzpHoojnwYXbwqejMO-JlTIHuZUgiL3D99-hjgSwqhJvYT2nJ4KWdgU5MFnOug_pZ1HKJeE"},
+				{"market_hash_name": "Sticker%20%7C%20GeT_RiGhT%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIgFDpLOiIxNf1fzBfQJO7c6xkc7bxvb3YuuDlD8F7ZBy0r-Tpoms3wLg-UBlMG2hIdWSdgJoNA7Wq1e_366x0sFLbSEJ"},
+				{"market_hash_name": "Sticker%20%7C%20friberg%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIxZetL-3LDhm3PrETjFD_tuz2tHax6PxMe3XwTIIvZR32b_ArIn02ge3-0ZoMjugdYOdJwNrNFvZrAKggbC4QfL_ryg"},
+				{"market_hash_name": "Sticker%20%7C%20f0rest%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwtFs6mxFAFv2v_3fTxQ69n4ktiKxPGiNe-Dxm4FvMQp2LuX9I-tjlDg80I6ajygJ4XBcFI4ZlCFrE_-n7mZOe2k2A"},
+				{"market_hash_name": "Sticker%20%7C%20allu%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJAhbo4WjJA5s7P_JYzpHot-1kYWJwKbxa7-Hwz4JvZB32eqV9N_2jgOyqBY9YDiiIdSRcQI4ZF3Oug_pW4PdH-M"}
 			]
 		},
 		"Natus Vincere": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Natus%20Vincere%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDdUkt9GgJYv7aaJwZy1PaGIWwSuo-ykoLcwaKhN-uBlW1VvZJ13O-WrN3z0ALg80VlYjynIICTdBh-Pw-KuWRyuw"},
+				{"market_hash_name": "Sticker%20%7C%20Zeus%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLPwFCpYWjJA5s7P_JYzpHoorvktGJxqLxMbiJlzpU7ZAmj--W8Y-kiwO1-Eo-N2yldtCRIwM_NFjOug_pNOrjKDo"},
+				{"market_hash_name": "Sticker%20%7C%20seized%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgFerL-hFAFv2v_3fTxQ69n4ldGOkq72Ze6Hwz9Qv5J30r6Uodqkjgyx-0plNWiiJdOQJA9qYV3W8k_-n7l33BOfyQ"},
+				{"market_hash_name": "Sticker%20%7C%20GuardiaN%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIhFWpL6sKglf1fzBfQJO7c6xkc7Twab2MuLQwjoFv8Ep2u-VrI6ki1fsrks6YTigJoaWIAU4Y1uG-Fbo366x0vUDvhmS"},
+				{"market_hash_name": "Sticker%20%7C%20flamie%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwhWu7OgFAFv2v_3fTxQ69n4l9bSz6TyMuLXzmkDvpcj3rvF8YqniwDhqBBoYTyicIHDdFI_MFzS_U_-n7mP08i4wQ"},
+				{"market_hash_name": "Sticker%20%7C%20Edward%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIABAt6ihFAFv2v_3fTxQ69n4wtmOk_GiNr6AlzkB7MQki73A9Nvx2wTj-0o_a23xcdSTcAc7Y1HT_E_-n7lreq80dg"}
 			]
 		},
 		"Virtus.Pro": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Virtus.Pro%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDFQ2JyKg1bibakOQBlnfGYIG0V7o2wwNPdk6HxNeqEkDkIucMmjLHEpNui21Hj_UNrY2_6IoOLMlhpWgqR0B8"},
+				{"market_hash_name": "Sticker%20%7C%20TaZ%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLMQVNibyqIgtf3_LadjgMv4jvzdaKwKWgN--BzjsI68Zw27mR8dqm2w3lrhJsYj_1coGRcFM9ZEaQpAbYoIYiLw"},
+				{"market_hash_name": "Sticker%20%7C%20Snax%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgpWroWjJA5s7P_JYzpHoo3mxNKNxfX2YbnQkzIG6sYji7DE8Y2k2FXh_0c9ZGH0IIaQJwM5aArOug_p3k_bGQc"},
+				{"market_hash_name": "Sticker%20%7C%20pashaBiceps%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNQVEvruaLQhp38zEcC9F6ZLkwNiIlPXyMumGwz9XupB13-qQpd6ljlXkrkdpY2nyIoPEJ1M2NQvU5BHglsQD-sxB"},
+				{"market_hash_name": "Sticker%20%7C%20NEO%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKwFYibyqIgtf3_LadjgMu42wzIHTwaOjY-zQwWgGsZEgj7GT8N2njlW3rUo9Z2qiJNOWcgQ5aUaQpAYk0eRWqQ"},
+				{"market_hash_name": "Sticker%20%7C%20byali%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJx1WurOaLQhp38zEcC9F6ZK3xITYlKaiZuKJz24IsZco3biXrdWn21Lj-xI6YG_zcYGSJwA8YQvQ5BHglsg6uinj"}
 			]
 		},
 		"G2 Esports": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20G2%20Esports%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDUAWJyKg1bibakOQBlnaLOKD4VvdiwkdGPwfKkN-uJlzxUvMEoj-yW8N7xiwzsrxFuNW2mdoWLMlhpJUx4OeM"},
+				{"market_hash_name": "Sticker%20%7C%20jkaem%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLw9Ws7eaLQhp38zEcC9F6ZK1ldOIx6amYeyFw29Xu8Ejj77F99z0jgbhrRc6YTyhLYfAIA89NFyD5BHglqR87gmQ"},
+				{"market_hash_name": "Sticker%20%7C%20rain%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNwVeuIWjJA5s7P_JYzpHooSyw9bYlPalN-6HxGkI6p1y3uyUodXxjlXj_UU5Ymr6cYKQewRqY17Oug_pZV2Iko4"},
+				{"market_hash_name": "Sticker%20%7C%20Maikelele%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKAVevb-pLgtl7PXHeDF94N2kk4XFla-nN-PTlz8E6sFy2OyS9N_0iw23rxI-aj-gLYWddlI-YFDV_Qe5yfCv28FZxY-LZQ"},
+				{"market_hash_name": "Sticker%20%7C%20fox%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwtPibyqIgtf3_LadjgM6tnuzNOOkqSlMe2HlD8Jv8B13b2X9I2hjQfkqhZsMjz0cNSSegE7Z0aQpAZebIbR_w"},
+				{"market_hash_name": "Sticker%20%7C%20dennis%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIQFZuLO2FAFv2v_3fTxQ69n4zYPSw6akZ-jQwzgF7pZwjL-W9N7z2ga1-UZqMj32JYTAIAQ9Z1DW_k_-n7m-4_pfAQ"}
 			]
 		},
 		"Team SoloMid": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Team%20SoloMid%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDHQFJ4KjtRubOpFAthwfTNP2RA6o3uxYWKxqbwarjUwG0HvpR337uVo42t2AbmqhdsNWqgJY_HcwIgIQaHnSQi5l0"},
+				{"market_hash_name": "Sticker%20%7C%20Xyp9x%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLPR1H76KaLQhp38zEcC9F6ZLul4KOzqSnNbmBlT4H7Jwhi7iY8Y6s3VHs-kU4ZWmhcoWWJ1VvMFDS5BHglva-_UJQ"},
+				{"market_hash_name": "Sticker%20%7C%20karrigan%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLgVFpLOiKglf1fzBfQJO7c6xkc7dkaalYrnUx29SscRy2rmX94jz2gblqkA6N2j3LNXGcAdtY1rQ_1O6366x0ieoV8TT"},
+				{"market_hash_name": "Sticker%20%7C%20dupreeh%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIRFHpL-gIzhm3PrETjFD_tuz2oPSz6_2MuLSwGlS7cAiib2R94n2jVHk-RY6N2vzdoeTJlNoZAvSqAKggbC4BF0bFkc"},
+				{"market_hash_name": "Sticker%20%7C%20device%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIQFBv7mgFAFv2v_3fTxQ69n4xoWJxK6ga7nXwG8F68F127CS9t72iwS1-hFqYGrzcNeWJwc8YF6G8k_-n7lYIJv8Cw"},
+				{"market_hash_name": "Sticker%20%7C%20cajunb%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJgVdo7SnFAFv2v_3fTxQ69n4zdCKlaekZe-CwzNQupR1iezD9NnwilHi8ks9MTzxJIWQdFJoM1GC_U_-n7le6Ok6bQ"}
 			]
 		},
 		"Team EnVyUs": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Team%20EnVyUs%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDdRWJyKg1bibakOQBlnaLOdGRDvoy1kNCPlKDwN76FzzMEvJxz2ezH84qk31e2qEBtMDj6ddKLMlhp9fh8ZOI"},
+				{"market_hash_name": "Sticker%20%7C%20NBK-%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKwZcibyqIgtf3_LadjgMuY60xdCNxKaia77Swz9UsJZyi7yT9IisiwO2qRI6MD3zI4WXJwM-Z0aQpAaskKQ7zA"},
+				{"market_hash_name": "Sticker%20%7C%20kennyS%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLgFZuKO2FAFv2v_3fTxQ69n4zIWJxaajY7qCwG0Jv51z2LDEp9ukjVLt-UVoYWD7I47EegJoZwrV-U_-n7mUMGa-wg"},
+				{"market_hash_name": "Sticker%20%7C%20kioShiMa%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLg1YpbKsJgZf1fzBfQJO7c6xkc7cxKCkMu6Fw25TsJwp2O2Trd2n3wTl_EFvNTqlJIKcJldrNQyBrFnt366x0rL-k8kk"},
+				{"market_hash_name": "Sticker%20%7C%20Happy%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLQVHpqOaLQhp38zEcC9F6ZK3loXdwaWmZ-_Qxj9V7ZV32eiW8dmg21WwrUFkZmryJNXDIw45Mw3Y5BHgln3bXJxF"},
+				{"market_hash_name": "Sticker%20%7C%20apEX%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJBRSroWjJA5s7P_JYzpHoojhlYaIxKasZePUzz0A6pUli7-Sod302w2xqhU_MW31dtCUdQRqNAzOug_pZajahSc"}
 			]
 		},
 		"Fnatic": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Fnatic%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDVXUl3GgJYv7aaJwZy1PaGIm5A74Syx9KNk_TyZ7-DkjkDvMck37rFo47x0AWx80ptZ2D7ctXDJBh-Pw8MzfnfKg"},
+				{"market_hash_name": "Sticker%20%7C%20pronax%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNRZYuLu9FAFv2v_3fTxQ69n4xNiJxvKgYb-IxGoFupx13e-Zrd723ALtqkNrY2zzLYGScAI3ZliE-E_-n7mrd6YLvg"},
+				{"market_hash_name": "Sticker%20%7C%20olofmeister%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKghYsLegIhR01uH3dzJL4OO6lZKMkrn2MbrVlzMBv8Eg3LjErd-ijAyx-BY5NWulctCQJAU2NwrZ_1i5ybvnm9bi64GjzcaW"},
+				{"market_hash_name": "Sticker%20%7C%20KRIMZ%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLhZeu6CaLQhp38zEcC9F6ZLixdONwPOiYO6EwjhQsJB02rnHot3321e38kpvY2GldY6cc1Q8MFyE5BHglh91t9Oi"},
+				{"market_hash_name": "Sticker%20%7C%20JW%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLxNosLWsJzhs0uHPdHNH6tqwl4XYw6SgNunVxz9QvsQj2rjA8N6s2wC2qkJrNW-icI6RJwY7fxiOrZoo_Fyq"},
+				{"market_hash_name": "Sticker%20%7C%20flusha%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwhCpbKkFAFv2v_3fTxQ69n4zNiIxKWjZ7mElWgE65Ql3-qS9o3z2QO3rUI-Ym_7I4LGJwI5N1nWr0_-n7nPKJC8RA"}
 			]
 		},
 		"Luminosity Gaming": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Luminosity%20Gaming%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDfRlB9GgJYv7aaJwZy1PaGJz8SuImzxNWIx6-lYuKHxG4Fu8Qg37_FpY6h2wzs_kJuYTr7JoedJhh-Pw8EcPSHOA"},
+				{"market_hash_name": "Sticker%20%7C%20steel%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNhBSs7aaLQhp38zEcC9F6ZLgkYPbwqOjMrjVxG5V7Zd12LvE8Yil2le3rRA4ZTqmJY6QcwI5MFHS5BHglq2PSg5J"},
+				{"market_hash_name": "Sticker%20%7C%20fer%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwFFibyqIgtf3_LadjgM6trvx9HdkaSkMr3Uxz1XupYo3rvFoY2ijAG1qkNuZmD0LNWScFQ8aUaQpAY1u84YqQ"},
+				{"market_hash_name": "Sticker%20%7C%20FalleN%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwVbur-rFAFv2v_3fTxQ69n4w9TSz6WsZOzXlT8B65J1jLGYpduhiVbtrkZlZ2D1JoHAIAI_NViG_0_-n7m9c3Zj4A"},
+				{"market_hash_name": "Sticker%20%7C%20coldzera%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJgtbsqCgOQZf1fzBfQJO7c6xkc7elPGgZbrXlToG650j2uqUpduh3we2_kplYmv3cdCScw47MA7X_lfq366x0tEylIbq"},
+				{"market_hash_name": "Sticker%20%7C%20boltz%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJwtboqCaLQhp38zEcC9F6ZLuwYPekvWnYuKJkjoEvZV00r6XoI6jjgfhrhdvZ2Gld4edJAE_NVGG5BHglm9WO34a"}
 			]
 		},
 		"Team Dignitas": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Team%20Dignitas%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDXWlpLIwteuoWpKhVn1r2cIDkSv4nvzdjfwa-tMeqGxzNVvJQl2OjF8I2kilW1rhBramj6LIaSbEZgNsE3D2Az"},
+				{"market_hash_name": "Sticker%20%7C%20tenzki%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLMQFZrLGsFAFv2v_3fTxQ69n4kdjSwPPxNuqHzzsCv8Z3iOrHotr00AG1r0M_ZmyicdTAdwE4ZgmB80_-n7mV2aUiXg"},
+				{"market_hash_name": "Sticker%20%7C%20Pimp%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNQ1apoWjJA5s7P_JYzpHoo-ww9SPla6nYOzSxTkJvMFz3LuVrdTwiwTnrkRkYjugJIeWJAI-YwzOug_pYs3-e4w"},
+				{"market_hash_name": "Sticker%20%7C%20MSL%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKBdbibyqIgtf3_LadjgMv47mzdjax6b3Z-qBkD9VvMR02LmQoo2h31Hj_kA4YG-icoCUIVJrNUaQpAbwQCOHdQ"},
+				{"market_hash_name": "Sticker%20%7C%20Kjaerbye%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLg5Ws6inMgJf1fzBfQJO7c6xkc7bwaejZOrXzj5VsMYm3uyUrIjzjgXkrxdpMj_ycoOUJwQ3YFGC-1a-366x0lXPwtuq"},
+				{"market_hash_name": "Sticker%20%7C%20aizy%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJA1Nr4WjJA5s7P_JYzpHoovjx9jbxPLyMe_VkjxQ65By0rCTpYrx3lbjqUU5NWvwdoWdJwc5Y1_Oug_pY5TWUBY"}
 			]
 		},
 		"Counter Logic Gaming": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Counter%20Logic%20Gaming%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDQX1pLIwteuoWpKhVn1r2YcGwbuInjzdWOz_KgML7SxTgC7ZMkjLHD99-njQLgrhI5ZGGgLNPHbEZgNp3Vm4oE"},
+				{"market_hash_name": "Sticker%20%7C%20tarik%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLMQVFv7GaLQhp38zEcC9F6ZK3zITZwabxMO2IlD0CsMAo0riR94300Fa3qUFtYjrwIYOUIwI3ZFrR5BHglgDrCTp0"},
+				{"market_hash_name": "Sticker%20%7C%20jdm64%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLwBa4O6aLQhp38zEcC9F6ZK3koPSka_1N-LSwD4CuMEk2bGY9tStjVDsr0o-ZD-lcoCcdgI6Zw2C5BHglullu57h"},
+				{"market_hash_name": "Sticker%20%7C%20hazed%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLQVNs76aLQhp38zEcC9F6ZLmwIOJk6KiZb6DlW4HuZBwj7CU84mt2ADmqEZoNmyhLNScdAc7YVmE5BHglsWYTwYa"},
+				{"market_hash_name": "Sticker%20%7C%20FNS%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIwpEibyqIgtf3_LadjgMuNrikNWNx_GgZ7-FwD8C68Yk27uZ9tqljFflqktpNj_yddKRdgBrYUaQpAbDShF0Zw"},
+				{"market_hash_name": "Sticker%20%7C%20reltuC%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNwFboq-mFAFv2v_3fTxQ69n4wILYlqfyYL2Bl2hVu5Uhj--Yp9j2igPs_EI6NW2gIdKXJAQ6M1CErE_-n7nhCcN_lA"}
 			]
 		},
 		"Vexed Gaming": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Vexed%20Gaming%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDFVkVLIwteuoWpKhVn1r3LKD5GutrjkoaPw6-nZOOCl2oFvZMl2bmV9o_2iQ2wqkU5MDz2LI6QbEZgNl0soiRu"},
+				{"market_hash_name": "Sticker%20%7C%20rallen%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNwVbur-rFAFv2v_3fTxQ69n4xIPfka6tYevSkmlQsJQg37zHptqj21axr0RvNWGnJYGSJwBtaA7VqE_-n7ly-WE4tg"},
+				{"market_hash_name": "Sticker%20%7C%20peet%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNQFSooWjJA5s7P_JYzpHotjkxtXYlKLxYuqFz2gHuZ0k2ejC9N_32QTsrUY9Zz-gJYOQewU6NVzOug_p2QpmmuE"},
+				{"market_hash_name": "Sticker%20%7C%20Hyper%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLR1Hs6iaLQhp38zEcC9F6ZKyxYTcw673NuqCxDlVupUi0uzArI-jiVC2qEdvZG32coLEIQ82YlvR5BHglivh5WEf"},
+				{"market_hash_name": "Sticker%20%7C%20GruBy%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIhZCtKOaLQhp38zEcC9F6ZLhx9Pazqb2MurQlzMJ7sYojLGVrd_3iQzj80ZlMW72dteTIAI9ZlDT5BHgltjiuVMp"},
+				{"market_hash_name": "Sticker%20%7C%20Furlan%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIxFFururFAFv2v_3fTxQ69n4x9jTwPSnZ7-JwjwJ7p1zibuYoo_x0FXl-BJpYmH3ddKXIQM-NQmC-E_-n7kBFoi4xQ"}
 			]
 		},
 		"Flipsid3 Tactics": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Flipsid3%20Tactics%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDVX1RkGgJYv7aaJwZy1PaGd20T6tm0xtnakqSjNu-Ezz0J7ZJziOqRptSi3AHjrUI5NjqiIIOSdxh-Pw9SAqGz2w"},
+				{"market_hash_name": "Sticker%20%7C%20WorldEdit%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLMgtFur6gLw507PXHeDF94N2kk4XFkaDwN-6Czm4Cu5ck07nD89um3APmqkI9Zj3xLNOTdQI6NFqC-1m7wPCv28HYoT0k2Q"},
+				{"market_hash_name": "Sticker%20%7C%20markeloff%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKAVFvb-pJAFm7PXHeDF94N2kk4XFxaKtNujVwz8F6ZIojOuRo46k2QCwrRJpNmyiJ4eTJAFqYVvT-1e8kvCv28EAK9vmqg"},
+				{"market_hash_name": "Sticker%20%7C%20DavCost%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIQVBtbW2Pzhm3PrETjFD_tuz2tHfxK-gMO2GlT4Iv5Rwi-_D84730VHh80FlYG7wcNWRJgNvZ1jSqQeggbC4mAuhMcU"},
+				{"market_hash_name": "Sticker%20%7C%20bondik%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJwtZsrOuFAFv2v_3fTxQ69n4w4bcxqf2ZL7VzjtUvcMhi-_F846t2FCy-UE4ZzjxcIfDIFA3M1rQ-k_-n7kT0wymTg"},
+				{"market_hash_name": "Sticker%20%7C%20B1ad3%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJ1VWsumaLQhp38zEcC9F6ZKzxdmNlvKsMrnQwTxU7MYm3r-SpY6n0FLm-UtlY2_3IYPAelBoaFCG5BHgljs5_6Mp"}
 			]
 		},
 		"Team Liquid": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Team%20Liquid%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDfWkxLIwteuoWpKhVn1r2aKTlHtNruxdfZlfSiYbrQz29Sv5QmiLnH89-i3wPn_UBtYDr3cI_BbEZgNt-OZyuR"},
+				{"market_hash_name": "Sticker%20%7C%20nitr0%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKw1DpLWaLQhp38zEcC9F6ZLuw4SKx_P3Z7mEzzlTvpYhjOqXrI6jjAS1qkJvZT_7doSQJlI7YFuG5BHglm5hBjpL"},
+				{"market_hash_name": "Sticker%20%7C%20Hiko%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLLQ1cuYWjJA5s7P_JYzpHoou0zdTaxqT2MOmGlz4GscRz07vApY-j2wHnrktkZmj7I9TBdVc8YVjOug_ptU0oolQ"},
+				{"market_hash_name": "Sticker%20%7C%20FugLy%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIxFQuqOaLQhp38zEcC9F6ZLnkIOIlaOgZ-uGwj9UuJdzi-uWoo_x0Afn_xE4Y2j3cYKVcQI8YwuD5BHglkMJ5URX"},
+				{"market_hash_name": "Sticker%20%7C%20EliGE%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIAhesb-aLQhp38zEcC9F6ZLmx9falPH2Yu6FxWlSvJZz3b3HoN6h2wPh_UJuMD3wJ9OSJAc3M1jV5BHglhm59xZy"},
+				{"market_hash_name": "Sticker%20%7C%20adreN%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJABFs7SaLQhp38zEcC9F6ZKzwtHbk6byYb2GkD8Iu5EpibqTpt-gjgTtrhVoMmv2J9edIA47MF_Q5BHglmkWO7eB"}
 			]
 		},
 		"mousesports": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20mousesports%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDeQE5LIwteuoWpKhVn1r2fIDtB6YW3zYSIlPamZuyBxmgA7sdw27GRo4isiQfh_ENsY2n1Jo-WbEZgNgBjt6xH"},
+				{"market_hash_name": "Sticker%20%7C%20NiKo%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKw1cuYWjJA5s7P_JYzpHotjjxdaNkfamMeqExz4IscMj3rzFoI_w0FHl-EppNzimJICTcw48Mw3Oug_pgWUY7Vg"},
+				{"market_hash_name": "Sticker%20%7C%20nex%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKwFPibyqIgtf3_LadjgMuY7gl9OOxaahYePQkDhXv8YjibCTo4-hiwSw80RuZm-ncI-QIVBvYkaQpAZRu3gq1g"},
+				{"market_hash_name": "Sticker%20%7C%20gob%20b%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIgtVtIWjJA5s7P_JYzpHot2zkYHYkqH3Nu-JlW0F6ZJyjr2X9omt21Dm_xJpYWigII6SelI2YlHOug_pHIIdBVE"},
+				{"market_hash_name": "Sticker%20%7C%20denis%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIQFZv6maLQhp38zEcC9F6ZK1xILYkfanYr6AxDJV65UmiOjDrd-h0Afg8ktkNmr1LIbGdQc-YgnT5BHgls1S_2Oh"},
+				{"market_hash_name": "Sticker%20%7C%20chrisJ%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLJgxFv6mvFAFv2v_3fTxQ69n4x9LbkvT2Z-6CkD4Bupx13b-UpI7w2wDs8kVoMmHyIo_EJAE9MljQ-E_-n7l9sr6zmw"}
 			]
 		},
 		"Cloud9": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Cloud9%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDQCmJyKg1bibakOQBlnfCbIW4V6IW0zdfbk_SiY-6DwTMI68MjibHEp4it0QLn-BVoNmrxJIKLMlhpa1aBX48"},
+				{"market_hash_name": "Sticker%20%7C%20n0thing%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLKwtDvrOrLDhm3PrETjFD_tuz2tLfwvGiN-2BwGlQuZx3273EpI-g0QyyrUpkMmGlI4KRJFNrNA6F81GggbC4_RQEdCE"},
+				{"market_hash_name": "Sticker%20%7C%20Skadoodle%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNg9WsrWqLwtl7PXHeDF94N2kk4XFlaLwMb-Bk2kJ68FzjLqSrd6j3QLl-BE6azjzJIGSewZsYl3Q_QO-wvCv28ELqFdN-Q"},
+				{"market_hash_name": "Sticker%20%7C%20shroud%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgxFua-hFAFv2v_3fTxQ69n4kIKPwvPya-qEwmgFvp0ljLyVrdmhjgTgqUBoZWj6cIadegI4aA6D-E_-n7ljDPGCkQ"},
+				{"market_hash_name": "Sticker%20%7C%20seang%40res%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgNWpL-2FAFv2v_3fTxQ69n4kIaNwPOnNb-CxTwC7pEijLGVpNvw2gWyqhVtMTimItSVdAE6ZF-G-0_-n7n_nuqLtw"},
+				{"market_hash_name": "Sticker%20%7C%20freakazoid%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIxZSt7GkMQhp18zOfjRO09C3hoeO2a-hN-nUk2pVuZQl2b-X8dyhiga3_UQ_MmihIYCRdVI2YFnRrFPsw7vxxcjrsojfWDY"}
 			]
 		},
 		"Titan": {
-			"quantity": 0,
+			"quantity": 6,
 			"stickers": [
-				
+				{"market_hash_name": "Sticker%20%7C%20Titan%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDHWklLIwteuoWpKhVn1r2ZKWoXvoyyx4KNwaejMOrSk21UvcZw0-yY8dnw3Qzh_xU_ZjigJ9WcbEZgNhv2H-AS"},
+				{"market_hash_name": "Sticker%20%7C%20SmithZz%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgleorK_MThm3PrETjFD_tuz2oHTx_akZujTxG5U6cYj2LmVoNrz3QO3_UtlZWj1cIbDdgJrMAzWqVSggbC4dqsdXe8"},
+				{"market_hash_name": "Sticker%20%7C%20shox%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgxYroWjJA5s7P_JYzpHoo7hzITfkfKsa-rTkDgA7ZQjj7nF8I-ijQ2180VsYjunII-Qe1RsZArOug_pE-3IHY8"},
+				{"market_hash_name": "Sticker%20%7C%20ScreaM%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNgdFs7uoFAFv2v_3fTxQ69n4wtDYw_L2YeKGxDxQ6cZ007nFot-k31Lk8kY5YzymIICcIAdvYA2EqU_-n7l4gxPNjQ"},
+				{"market_hash_name": "Sticker%20%7C%20RpK%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLNxRcibyqIgtf3_LadjgMtYjikoTYxPalNuLTzmoHvpdziLnFoo6j2Abl_BFvZj_3ddTEcgM_ZEaQpAbkg3dsKA"},
+				{"market_hash_name": "Sticker%20%7C%20Ex6TenZ%20%28Foil%29%20%7C%20Cluj-Napoca%202015", "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulReQFnaFbT8goDAWlpLIBwBor-rMThm3PrETjFD_tuz2tmKwK6gYO6AxTtQvpcg2-qWo9Wh2w3irUo9Yzv1doSTJFM6NA7QrFWggbC49OO3KGs"}
 			]
 		}
 	}
