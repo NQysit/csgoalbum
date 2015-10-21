@@ -259,6 +259,10 @@ function checkOwned() {
  */
 function swapAnimated(mode) {
 	
+	if(arguments.length == 0) {
+		mode = (!window.animatedstickers);
+	}
+	
 	if(mode != window.animatedstickers) {
 		window.animatedstickers = mode;
 		
