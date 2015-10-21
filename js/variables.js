@@ -1,4 +1,4 @@
-window.CurrentVersion = "v0.1.1"; //app version
+window.CurrentVersion = "v0.2"; //app version
 window.LastCategory = false; // last category filtered
 window.steamID = ""; //current steamID being analyzed
 window.inventoryloaded = false;
@@ -12,7 +12,9 @@ window.categories =
 	'dhw2014': ["DreamHack Winter 2014"],
 	'katowice2015': ["ESL One Katowice 2015"],
 	'cologne2015': ["ESL One Cologne 2015"],
-	'cologne2015foil': ["ESL One Cologne 2015 (Foil)"]
+	'cologne2015foil': ["ESL One Cologne 2015 (Foil)"],
+	'dhcluj2015': ["DreamHack Cluj-Napoca 2015"],
+	'dhcluj2015foil': ["DreamHack Cluj-Napoca 2015 (Foil)"]
 };
 
 window.steamimages_url = "http://steamcommunity-a.akamaihd.net/economy/image/";
