@@ -4,13 +4,16 @@
  * functions loaded with the page
  */
 function onLoad() {
+    document.getElementById("navbrand-csgoalbum").href = window.csgoalbumurl; //set url in nav
 	setContenVisible("hidden"); //hide content column
     setVersion();
+    getHash();
+    checkSteamID(); //check if hash content a valid steamID and load its inventory
 };
 
 /**
  * setVersion
- * set current version under the application
+ * set current version in nav bar
  */
 function setVersion() {
 	document.getElementById("spanCurrentVersion").innerHTML = window.CurrentVersion;
@@ -29,13 +32,10 @@ function initSticker() {
  * checks if the value is a name or an url
  */
 function checkFormSteamID() {
-	
-	setContenVisible("hidden"); //hide content column
-	
+	setContenVisible("hidden"); //hide content column	
 	var steamID = document.getElementById("inputSteamID").value;
 	
 	if(steamID != null && steamID != "") {
-		
 		//if steamID is a full url
 		if(steamID.indexOf("steamcommunity") > -1) {
 			steamID = steamID.split('/')[4];
@@ -44,8 +44,8 @@ function checkFormSteamID() {
 	
 	window.steamID = steamID;
 	window.LastCategory = false;
+    window.hashCategory = false;
 	getInventory();
-	
 };
 
 /**
@@ -63,10 +63,15 @@ function getInventory() {
 	$.getJSON(url, function(json) {
 		if(json.success == true) {
 			window.currentinventory = json;
-			window.inventoryloaded = true;
 			spanprofilestatus.innerHTML = "<a href='http://steamcommunity.com/id/" + window.steamID + "/inventory/#730' target='blank'>Inventory</a> loaded correctly";
 			
-			setContenVisible("visible"); //show content column
+			setContenVisible("visible"); //show content column            
+            setCustomURL(window.steamID, ""); //set hash for current user
+            
+            //if previous hash is set
+            if(window.hashCategory != null) {
+                selectCategory(window.hashCategory);
+            }
 		}
 		else {
 			//if json includes error message
@@ -78,6 +83,7 @@ function getInventory() {
 				spanprofilestatus.innerHTML = "There were some errors while fetching the inventory. Check if it's correct.";
 			}
 		}
+		window.inventoryloaded = true;
 	});
 	
 	//if after 5 seconds inventory isn't loaded
@@ -94,15 +100,18 @@ function getInventory() {
  * search the selected category and use it
  */
 function selectCategory(id) {
-	
 	if(id != window.LastCategory && window.currentinventory != null) {
-		clearHeaderCSS();
-		clearCategory();
-		document.getElementById("categoryName").innerHTML = window.categories[id][0];
-		document.getElementById("category_" + id).classList.add("currentcategory");
-		clearCategoryContent();
-		searchStickers(id);
-		window.LastCategory = id;
+        if(id in window.categories) {
+            clearHeaderCSS();
+            clearCategory();
+            document.getElementById("categoryName").innerHTML = window.categories[id][0];
+            document.getElementById("category_" + id).classList.add("currentcategory");
+            clearCategoryContent();
+            searchStickers(id);
+            window.LastCategory = id;
+            
+            setCustomURL(window.steamID, id);
+        }
 	}
 };
 
@@ -308,6 +317,45 @@ function clearCountOwned() {
 	document.getElementById("badge_katowice2015").innerHTML = "";	
 	document.getElementById("badge_cologne2015").innerHTML = "";	
 	document.getElementById("badge_cologne2015foil").innerHTML = "";	
+};
+
+/**
+ * setCustomURL
+ * set custom url for current user and category
+ */
+function setCustomURL(steamid, category) {    
+    var hash = "#" + steamid + "-" + category;    
+    if(history.pushState) {
+        history.pushState(null, null, hash);
+    }
+    else {
+        location.hash = hash;
+    }
+};
+
+/**
+ * getHash
+ * get location.hash and save its content
+ */
+function getHash() {
+    var hash = location.hash;
+    hash = hash.replace(/\#/g, '');
+    
+    var values = hash.split("-");
+    window.steamID = values[0];
+    window.hashCategory = values[1];
+};
+
+/**
+ * checkSteamID
+ * check if url contents any steamid
+ * if it contents, it searches inventory
+ */
+function checkSteamID() {
+    if(window.steamID != "") {
+        document.getElementById("inputSteamID").value = window.steamID;
+        getInventory();
+    }
 };
 
 function divtocanvas() {

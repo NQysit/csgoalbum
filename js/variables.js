@@ -1,5 +1,7 @@
+window.csgoalbumurl = "http://csgo-album.com";
 window.CurrentVersion = "v0.2"; //app version
 window.LastCategory = false; // last category filtered
+window.hashCategory = false; //category from hash
 window.steamID = ""; //current steamID being analyzed
 window.inventoryloaded = false;
 window.currentinventory = null;
