@@ -19,7 +19,5 @@ window.categories =
 	'dhcluj2015foil': ["DreamHack Cluj-Napoca 2015 (Foil)"]
 };
 
-window.steamimages_url = "http://steamcommunity-a.akamaihd.net/economy/image/";
 window.cross = "http://crossorigin.me/";
 window.steammarket_url = "http://steamcommunity.com/market/listings/730/";
-window.icondimensions = "/94fx94f";
