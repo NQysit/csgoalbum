@@ -62,7 +62,7 @@ function albumtocanvas() {
             }
             
             currentX += imgWidth;
-            if(((j+1) % 8 == 0)  && (j+1 < stickers.length)) {
+            if(((j+1) % maxItemsRow == 0)  && (j+1 < stickers.length)) {
                 currentX = 0;
                 currentY += interImages - 10;
             }
