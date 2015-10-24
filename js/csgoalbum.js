@@ -358,13 +358,23 @@ function checkSteamID() {
     }
 };
 
-function divtocanvas() {
-    html2canvas(document.getElementById("divContentAlbum"), {
-        proxy: "http://html2canvas.appspot.com/query?callback=?",
-        logging: true,
-        taintTest: false,
-        onrendered: function(canvas) {
-            document.body.appendChild(canvas);
-        }
-    });
+/**
+ * exportAlbum
+ * gets current album and make a canvas with it
+ */
+function exportAlbum() {
+    var currentAnimation = window.animatedstickers;
+  
+    if(currentAnimation) {
+        swapAnimated(false);
+      
+        //wait until all img are loaded      
+        setTimeout(function(){
+            albumtocanvas();
+            swapAnimated(true);
+        }, 500);
+    }
+    else {
+        albumtocanvas();
+    }
 };

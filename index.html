@@ -112,8 +112,8 @@
                     <div class="row container"> 
                         Animated stickers: 
                         <div class="btn-group" role="group">
-                            <a class="btn btn-default btn-xs active" href="#" onclick="swapAnimated(true)" id="btnSwapOn">on</a>
-                            <a class="btn btn-default btn-xs" href="#" onclick="swapAnimated(false)" id="btnSwapOff">off</a>
+                            <a class="btn btn-default btn-xs cursorpointer active"  onclick="swapAnimated(true)" id="btnSwapOn">on</a>
+                            <a class="btn btn-default btn-xs cursorpointer"  onclick="swapAnimated(false)" id="btnSwapOff">off</a>
                         </div>
                     </div>
                     
@@ -161,6 +161,7 @@
                     </div>
                     
                     <!-- buttons -->
+                    <a class="btn btn-default btn-xs cursorpointer"  onclick="exportAlbum()">Export Album</a>
                     
                 </div>
                 
@@ -193,11 +194,10 @@
         
         <!-- scripts -->
         <script src="assets/jquery-2.1.4/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="assets/node_modules/rasterizehtml/dist/rasterizeHTML.allinone.js" type="text/javascript"></script>
         <script src="assets/bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript"></script>  
         <script src="assets/stickerjs-1.0/sticker.min.js" type="text/javascript"></script>
-        <script src="assets/html2canvas-0.5.0/html2canvas.js" type="text/javascript"></script>
         <script src="js/variables.js" type="text/javascript"></script>
+        <script src="js/albumtocanvas.js" type="text/javascript"></script>
         <script src="js/csgoalbum.js" type="text/javascript"></script>
         
         <!-- Twitter Button -->
