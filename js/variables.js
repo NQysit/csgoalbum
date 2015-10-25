@@ -1,9 +1,12 @@
-window.CurrentVersion = "v0.2"; //app version
+window.csgoalbumurl = "http://csgo-album.com/";
+window.CurrentVersion = "v0.3"; //app version
 window.LastCategory = false; // last category filtered
+window.hashCategory = false; //category from hash
 window.steamID = ""; //current steamID being analyzed
 window.inventoryloaded = false;
 window.currentinventory = null;
 window.animatedstickers = true;
+window.exporting = false;
 
 window.categories = 
 {
@@ -17,7 +20,5 @@ window.categories =
 	'dhcluj2015foil': ["DreamHack Cluj-Napoca 2015 (Foil)"]
 };
 
-window.steamimages_url = "http://steamcommunity-a.akamaihd.net/economy/image/";
 window.cross = "http://crossorigin.me/";
 window.steammarket_url = "http://steamcommunity.com/market/listings/730/";
-window.icondimensions = "/94fx94f";

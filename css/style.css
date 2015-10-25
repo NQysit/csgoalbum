@@ -36,3 +36,7 @@ body {
 .shadowdiv {
     box-shadow: 10px 0 10px -5px rgba(0, 0, 0, 0.75), -10px 0 10px -5px rgba(0, 0, 0, 0.75);
 }
+
+.cursorpointer {
+    cursor: pointer;
+}
