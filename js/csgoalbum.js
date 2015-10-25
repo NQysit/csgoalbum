@@ -111,6 +111,9 @@ function selectCategory(id) {
             window.LastCategory = id;
 
             setCustomURL(window.steamID, id);
+            if(!window.exporting ) {
+                resetDivExport();
+            }
         }
     }
 };
@@ -363,9 +366,15 @@ function checkSteamID() {
  * gets current album and make a canvas with it
  */
 function exportAlbum() {
-    var currentAnimation = window.animatedstickers;
-  
-    if(currentAnimation) {
+    
+    window.exporting = true;
+    //clear div
+    clearDivExport();
+    
+    //set uploading
+    document.getElementById("divExport").innerHTML = "Uploading...";
+    
+    if(window.animatedstickers) {
         swapAnimated(false);
       
         //wait until all img are loaded      
@@ -377,4 +386,30 @@ function exportAlbum() {
     else {
         albumtocanvas();
     }
+};
+
+/**
+ * clearDivExport
+ * clears content of exporting div
+ */
+function clearDivExport() {
+    var content = document.getElementById("divExport");
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
+};
+
+/**
+ * resetDivExport
+ * reset exporting div
+ */
+function resetDivExport() {
+    
+    clearDivExport();    
+    var div = document.getElementById("divExport");
+    var a = document.createElement("a");
+    a.className = "btn btn-inverse input-group-addon btn-xs cursorpointer";
+    a.innerHTML= "<i class='fa fa-file-image-o'></i> Share this album</a>";
+    a.addEventListener("click", exportAlbum);
+    div.appendChild(a);
 };

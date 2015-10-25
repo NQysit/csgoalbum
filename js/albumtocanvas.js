@@ -1,4 +1,5 @@
 function albumtocanvas() {
+    
     var album = document.getElementById('divContentAlbum');
     var canvas = document.createElement("canvas");
     var ctx = canvas.getContext("2d");
@@ -83,9 +84,91 @@ function albumtocanvas() {
     
     //Open new window
     //var c=document.getElementById("areaCanvas");
-    setTimeout(function(){
-        window.open(canvas.toDataURL('image/png'));
-    }, 500);
+    // setTimeout(function(){
+    //     window.open(canvas.toDataURL('image/png'));
+    // }, 500);
+    
+    //upload to imgur
+    var img64 = null;
+    setTimeout(function() {
+        try {
+            img64 = canvas.toDataURL('image/jpeg', 0.9).split(',')[1];
+        } catch(e) {
+            img64 = canvas.toDataURL().split(',')[1];
+        }
+    
+        $.ajax({
+            url: 'https://api.imgur.com/3/image',
+            type: 'post',
+            headers: {
+                Authorization: "Client-ID " + window.imgurClientID
+            },
+            data: {
+                image: img64,
+                name: window.csgoalbumurl + location.hash,
+                title: window.csgoalbumurl + location.hash
+            },
+            dataType: 'json',
+            success: function(response) {
+                if(response.success) {
+                    var link = response.data.link;
+                    var id = response.data.id;
+                    var linkid = "https://imgur.com/gallery/" + id;
+                    
+                    var divExport = document.getElementById("divExport");
+                    
+                    var divlink = document.createElement("div");
+                    var spanlink = document.createElement("span");
+                    var brlink = document.createElement("br");
+                    spanlink.innerHTML = "Direct link: ";
+                    var alink = document.createElement("a");
+                    alink.target = "_blank";
+                    alink.href = link;
+                    alink.innerHTML = link;
+                    divlink.appendChild(spanlink);
+                    divlink.appendChild(brlink);
+                    divlink.appendChild(alink);
+                    
+                    var divgallery = document.createElement("div");
+                    var spangallery = document.createElement("span");
+                    var brgallery = document.createElement("br");
+                    spangallery.innerHTML = "Gallery link: ";
+                    var agallery = document.createElement("a");
+                    agallery.target = "_blank";
+                    agallery.href = linkid;
+                    agallery.innerHTML = linkid;
+                    divgallery.appendChild(spangallery);
+                    divgallery.appendChild(brgallery);
+                    divgallery.appendChild(agallery);
+                    
+                    var divbbcode = document.createElement("div");
+                    var spanbbcode = document.createElement("span");
+                    spanbbcode.innerHTML = "BBCode: ";
+                    var txtbbcode = document.createElement("input");
+                    txtbbcode.type = "text";
+                    txtbbcode.className = "form-control";
+                    txtbbcode.readOnly = true;
+                    txtbbcode.value = "[url=" + window.csgoalbumurl + location.hash + "][img]" + link + "[/img][/url]";
+                    divbbcode.appendChild(spanbbcode);
+                    divbbcode.appendChild(txtbbcode);
+                    
+                    clearDivExport();
+                    divExport.appendChild(divlink);
+                    divExport.appendChild(divgallery);
+                    divExport.appendChild(divbbcode);
+                    
+                    //complete export process
+                    window.exporting = false;
+                    
+                }
+            },
+            error: function(e) {
+                document.getElementById("divExport").innerHTML = "There was an error.";
+            }
+        });
+        
+    }, 500); 
+
 }
 
 function drawSticker(ctx, src, x, y) {

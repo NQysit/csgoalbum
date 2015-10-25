@@ -6,6 +6,7 @@ window.steamID = ""; //current steamID being analyzed
 window.inventoryloaded = false;
 window.currentinventory = null;
 window.animatedstickers = true;
+window.exporting = false;
 
 window.categories = 
 {
