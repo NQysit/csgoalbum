@@ -1,4 +1,4 @@
-window.csgoalbumurl = "http://csgo-album.com";
+window.csgoalbumurl = "http://csgo-album.com/";
 window.CurrentVersion = "v0.3"; //app version
 window.LastCategory = false; // last category filtered
 window.hashCategory = false; //category from hash
