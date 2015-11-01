@@ -254,6 +254,11 @@ function checkOwned() {
 
         for(var item in descriptions) {
             var market_hash = descriptions[item]["market_hash_name"];
+            
+            //bugfix for v0.3.1
+            hash = hash.replace("%40", '@'); //replace %40 by @ for players within their name
+            //
+            
             if(market_hash == hash || market_hash == decodeURI(hash)) {
                 document.getElementById(items[i].id).classList.remove("sticker-translucid");
                 countowned++;
@@ -320,6 +325,8 @@ function clearCountOwned() {
     document.getElementById("badge_katowice2015").innerHTML = "";
     document.getElementById("badge_cologne2015").innerHTML = "";
     document.getElementById("badge_cologne2015foil").innerHTML = "";
+    document.getElementById("badge_dhcluj2015").innerHTML = "";
+    document.getElementById("badge_dhcluj2015foil").innerHTML = "";
 };
 
 /**
