@@ -14,11 +14,6 @@ body {
     text-align: right;
 }
 
-.sticker-translucid {
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
-} 
-
 .currentcategory {
   color: #333;
   background-color: #f5f5f5;
@@ -33,10 +28,25 @@ body {
     margin: 0px;
 }
 
+.sticker-translucid {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+} 
+
 .shadowdiv {
     box-shadow: 10px 0 10px -5px rgba(0, 0, 0, 0.75), -10px 0 10px -5px rgba(0, 0, 0, 0.75);
 }
 
 .cursorpointer {
     cursor: pointer;
+}
+
+.link-market {
+    text-decoration: none;
+    position: relative;
+}
+
+.span-prices {
+    font-size: small;
+    position: absolute;
 }

@@ -68,6 +68,8 @@
         </div>
         
         <div class="container shadowdiv">
+            
+            <!-- tittle and social -->
             <div class="page-header row">
                 <div class="col-sm-10">
                     <h1>CS:GO album <small>Gotta catch'em all</small></h1>
@@ -81,11 +83,11 @@
                 </div>
             </div>
             
+            <!-- first row -->
             <div class="row"> 
-                          
-                <div class="col-sm-3">      
-                       
-                    <!-- profile -->
+                
+                <!-- profile -->
+                <div class="col-sm-4">
                     <div class="row container">                
                         <form class="form-inline" action="#" onsubmit="checkFormSteamID()">
                             <div class="input-group ">
@@ -95,7 +97,21 @@
                             </div>
                         </form>
                         <small><span id="spanprofilestatus">Import your profile. <i>http://steamcommunity.com/id/&lt;ID&gt;</i></span></small>
-                        
+                    </div>
+                    
+                </div>
+                
+                <!-- settings -->
+                <div id="divSettings">
+                    <div class="row container">                
+                        <form class="form-inline">
+                            <div class="input-group ">
+                                <span class="input-group-addon">Settings</span>
+                                <a class="btn btn-default input-group-addon cursorpointer"  onclick="swapShowPrices()" id="btnSwapShowPrices"><i class="fa fa-usd"></i> Price</a>   
+                                <a class="btn btn-default input-group-addon cursorpointer active"  onclick="swapAnimated()" id="btnSwapAnimated"><i class="fa fa-file-o"></i> Animations</a>
+                            </div>
+                        </form>
+                        <small><span id="spansettingsstatus"></span></small>
                     </div>
                     
                 </div>
@@ -103,19 +119,11 @@
             
             <br />
             
+            <!-- content -->
             <div class="row">             
             
                 <!-- left column -->
                 <div class="col-sm-3" id="column_left">   
-                         
-                    <!-- confugre -->                    
-                    <div class="row container"> 
-                        Animated stickers: 
-                        <div class="btn-group" role="group">
-                            <a class="btn btn-default btn-xs cursorpointer active"  onclick="swapAnimated(true)" id="btnSwapOn">on</a>
-                            <a class="btn btn-default btn-xs cursorpointer"  onclick="swapAnimated(false)" id="btnSwapOff">off</a>
-                        </div>
-                    </div>
                     
                     <!-- category list -->
                     <div class="list-group">
@@ -182,6 +190,7 @@
                 </div>
             </div>
         
+            <!-- footer -->
             <div class="footer">
                     csgo-album.com is not affiliated with Valve Corporation in any way.
                     <br />

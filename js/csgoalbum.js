@@ -195,7 +195,9 @@ function searchStickers(id) {
                     cssname = cssname.replace(/\./g, ''); //delete . from subcategory name
 
                     var a = document.createElement("a");
-
+                    
+                    //if animations are selected
+                    //create content necesary for sticker.js
                     if(window.animatedstickers) {
 
                         var style = document.createElement("style");
@@ -208,14 +210,37 @@ function searchStickers(id) {
                         document.getElementsByTagName('head')[0].appendChild(style);
 
                         a.className = "sticker " + "classSticker" + cssname +" sticker-translucid";
+                        
+                        //include prices
+                        if(window.showprices) {
+                            var price = getStickerPrice(this.stickers[i]["market_hash_name"]);
+                            var spanprice = document.createElement("span");
+                            spanprice.className = "span-prices";
+                            spanprice.innerHTML = price;
+                            a.appendChild(spanprice);
+                        }
                     }
+                    //if animations are not selected
+                    //create just an image
                     else {
                         var img = document.createElement("img");
                         img.src = this.stickers[i]["icon_url"];
                         a.className = "sticker-translucid";
                         a.appendChild(img);
+                        
+                        //include prices
+                        if(window.showprices) {
+                            var price = getStickerPrice(this.stickers[i]["market_hash_name"]);
+                            var spanprice = document.createElement("span");
+                            spanprice.className = "span-prices";
+                            spanprice.innerHTML = price;
+                            a.appendChild(spanprice);
+                        }
                     }
-
+                    
+                    //add link-market for prices and counts
+                    a.classList.add("link-market");
+                    //add link values
                     a.href = window.steammarket_url + this.stickers[i]["market_hash_name"];
                     a.target = "_blank";
                     a.id = "sticker_" + cssname;
@@ -264,6 +289,7 @@ function checkOwned() {
                 countowned++;
                 break;
             }
+            
         }
     }
     document.getElementById("badge_"+window.LastCategory).innerHTML = countowned + "/" + items.length;
@@ -284,12 +310,10 @@ function swapAnimated(mode) {
         window.animatedstickers = mode;
 
         if(mode) {
-            document.getElementById("btnSwapOn").classList.add("active");
-            document.getElementById("btnSwapOff").classList.remove("active");
+            document.getElementById("btnSwapAnimated").classList.add("active");
         }
         else {
-            document.getElementById("btnSwapOn").classList.remove("active");
-            document.getElementById("btnSwapOff").classList.add("active");
+            document.getElementById("btnSwapAnimated").classList.remove("active");
         }
 
         if(window.LastCategory != false) {
@@ -305,6 +329,7 @@ function swapAnimated(mode) {
 function setContenVisible(mode) {
     document.getElementById("column_left").style.visibility = mode;
     document.getElementById("column_content").style.visibility = mode;
+    document.getElementById("divSettings").style.visibility = mode;
 
     if(mode == "hidden") {
         clearCategoryContent();
@@ -419,4 +444,128 @@ function resetDivExport() {
     a.innerHTML= "<i class='fa fa-file-image-o'></i> Share this album</a>";
     a.addEventListener("click", exportAlbum);
     div.appendChild(a);
+};
+
+/**
+ * swapShowPrices
+ * shows / hides prices
+ */
+function swapShowPrices(mode) {
+
+    if(arguments.length == 0) {
+        mode = (!window.showprices);
+    }
+
+    if(mode != window.showprices) {
+        window.showprices = mode;
+
+        if(mode) {
+            document.getElementById("btnSwapShowPrices").classList.add("active");
+            if(window.pricelist == null) {
+                getMarketPrices();
+            }
+        }
+        else {
+            document.getElementById("btnSwapShowPrices").classList.remove("active");
+        }
+
+        if(window.LastCategory != false) {
+            forceSelectCategory(window.LastCategory);
+        }
+    }
+};
+
+/**
+ * getMarketPrices
+ * fetch all sticker prices from steam market
+ * save them to a global variable for the current session
+ */
+function getMarketPrices(){
+    
+    var start = 0; //initial position
+    var count = 100; //number of items by petition
+    var total_count = 0; //total items
+    
+    var list = [];
+    var fetching = true;
+    
+    document.getElementById("spansettingsstatus").innerHTML = "Fetching prices...";
+    
+    //while there still are items    
+    while(fetching) {
+        
+        var order = "&sort_column=name&sort_dir=asc";
+        var url = window.cross + "http://steamcommunity.com/market/search/render/?category_730_Type[]=tag_CSGO_Tool_Sticker&appid=730&start=" + start + "&count=" + count + order;
+        start += count;
+    
+        $.ajax({
+            url: url,
+            async: false,
+            dataType: 'json',
+            success: function (json) {
+                if(json.success == true) {
+                        
+                    total_count = json.total_count; //set total count = total items from market
+                    document.getElementById("spansettingsstatus").innerHTML = "Fetching " + start + "/" + total_count;
+                    
+                    var div = document.createElement("div");
+                    div.innerHTML = json.results_html;
+                    
+                    //get items from json
+                    var items = $(div).find('.market_listing_row_link');
+                    for(var i = 0; i <items.length; i++) {
+                        //get price for each item                        
+                        var spanprice = items[i].innerHTML.match(/<span style="color:white">.*?([0-9]+(?:\.[0-9]*)?).*?<\/span>/);
+                        //get the matching string
+                        var price = spanprice[1];
+                        var hash_name = encodeURI(String(items[i]).replace("http://steamcommunity.com/market/listings/730/", ""));
+                        //add item and price to list
+                        list[hash_name] = price;
+                    }
+                }
+                else {
+                    fetching = false;
+                    document.getElementById("spansettingsstatus").innerHTML = "There were an error while fetching prices.";
+                }
+            },
+            error: function (e) {
+                fetching = false;
+                document.getElementById("spansettingsstatus").innerHTML = "There were an error while fetching prices. Market can't be loaded.";
+            }
+        });
+        
+        //if no remaining items
+        if(total_count <= start) {
+            fetching = false;
+            document.getElementById("spansettingsstatus").innerHTML = "All prices loaded correctly.";
+        }
+    
+        
+        /*
+            //if after 5 seconds inventory isn't loaded
+    setTimeout(function(){
+        if(!window.inventoryloaded) {
+            spanprofilestatus.innerHTML = "We are not able to fetch your inventory. Check your SteamID or try again later.";
+        }
+    }, 5000);
+    */
+        
+    } //end while
+   
+    window.pricelist = list;
+    
+};
+
+/**
+ * getStickerPrice
+ * returns the price of a given hash market name
+ * only works if prices are loaded previously
+ */
+function getStickerPrice(market_hash) {
+    var hash = encodeURI(market_hash);
+    var toret = "";
+    if(hash in window.pricelist) {
+        toret = "$" + window.pricelist[hash];
+    }
+    return toret;
 };
