@@ -185,6 +185,7 @@ function searchStickers(id) {
                 var form = document.createElement("form");
                 form.className = "form-horizontal ng-pristine ng-valid";
                 var fieldset = document.createElement("fieldset");
+                fieldset.className = "albumfieldset";
                 var legend = document.createElement("legend");
                 legend.innerHTML = subcategory;
                 fieldset.appendChild(legend);
@@ -193,7 +194,21 @@ function searchStickers(id) {
                     var cssname = id + subcategory + i;
                     cssname = cssname.replace(/\s+/g, ''); //delete spaces from subcategory name
                     cssname = cssname.replace(/\./g, ''); //delete . from subcategory name
-
+                    
+                    var cell = document.createElement("div");
+                    cell.className = "divinline";
+                    var row1 = document.createElement("div"); //sticker container
+                    var row2 = document.createElement("div"); //price and count container
+                    var divcount = document.createElement("div");
+                    divcount.className = "divcount";
+                    var divprice = document.createElement("div");
+                    divprice.className = "divprice";
+                    row2.appendChild(divcount);
+                    row2.appendChild(divprice);
+                    cell.appendChild(row1);
+                    cell.appendChild(row2);
+                    
+                  
                     var a = document.createElement("a");
                     
                     //if animations are selected
@@ -217,7 +232,8 @@ function searchStickers(id) {
                             var spanprice = document.createElement("span");
                             spanprice.className = "span-prices";
                             spanprice.innerHTML = price;
-                            a.appendChild(spanprice);
+                            //divprice.appendChild(spanprice);
+                            divprice.innerHTML = price;
                         }
                     }
                     //if animations are not selected
@@ -234,9 +250,19 @@ function searchStickers(id) {
                             var spanprice = document.createElement("span");
                             spanprice.className = "span-prices";
                             spanprice.innerHTML = price;
-                            a.appendChild(spanprice);
+                            //divprice.appendChild(spanprice);
+                            divprice.innerHTML = price;
                         }
                     }
+                    
+                    //////////////////
+                    /////////////
+                    var c = getStickerCount(this.stickers[i]["market_hash_name"]);
+                    var cs = document.createElement("span");
+                    cs.innerHTML = "x"+c;
+                    divcount.appendChild(cs);
+                    ///////////
+                    
                     
                     //add link-market for prices and counts
                     a.classList.add("link-market");
@@ -245,7 +271,9 @@ function searchStickers(id) {
                     a.target = "_blank";
                     a.id = "sticker_" + cssname;
                     a.title = decodeURI(this.stickers[i]["market_hash_name"]);
-                    fieldset.appendChild(a);
+                    row1.appendChild(a);
+                    
+                    fieldset.appendChild(cell);
                 }
 
                 var divclear = document.createElement("div");
@@ -506,7 +534,7 @@ function getMarketPrices(){
                 if(json.success == true) {
                         
                     total_count = json.total_count; //set total count = total items from market
-                    document.getElementById("spansettingsstatus").innerHTML = "Fetching " + start + "/" + total_count;
+                    document.getElementById("spansettingsstatus").innerHTML = window.workinganimation + "Fetching " + start + "/" + total_count;
                     
                     var div = document.createElement("div");
                     div.innerHTML = json.results_html;
@@ -537,7 +565,7 @@ function getMarketPrices(){
         //if no remaining items
         if(total_count <= start) {
             fetching = false;
-            document.getElementById("spansettingsstatus").innerHTML = "All prices loaded correctly.";
+            document.getElementById("spansettingsstatus").innerHTML = "Prices loaded correctly.";
         }
     
         
@@ -568,4 +596,80 @@ function getStickerPrice(market_hash) {
         toret = "$" + window.pricelist[hash];
     }
     return toret;
+};
+
+/**
+ * swapShowCount
+ * shows/hides item count
+ */
+function swapShowCount(mode) {
+
+    if(arguments.length == 0) {
+        mode = (!window.showcount);
+    }
+
+    if(mode != window.showcount) {
+        window.showcount = mode;
+
+        if(mode) {
+            document.getElementById("btnSwapShowCount").classList.add("active");
+        }
+        else {
+            document.getElementById("btnSwapShowCount").classList.remove("active");
+        }
+
+        if(window.LastCategory != false) {
+            forceSelectCategory(window.LastCategory);
+        }
+    }
+};
+
+/**
+ * getStickerCount
+ * returns number of stickers with the same given hash
+ * only works if inventory is loaded previously
+ */
+function getStickerCount(h) {
+    //var hash = encodeURI(h);
+    var toret = 0;
+    var descriptions = window.currentinventory.rgDescriptions;
+    for(var item in descriptions) {
+        var market_hash = descriptions[item]["market_hash_name"];
+        
+        //bugfix for v0.3.1
+        h = h.replace("%40", '@'); //replace %40 by @ for players within their name
+        //
+        
+        if(market_hash == h || market_hash == decodeURI(h)) {
+            toret++;
+        }
+        
+    }
+    return toret;
+    
+    /*
+     var descriptions = window.currentinventory.rgDescriptions;
+    var items = document.getElementById("categoryContent").getElementsByTagName("a");
+    var countowned = 0;
+    for(var i = 0; i< items.length; i++) {
+        var hash = items[i].title;
+
+        for(var item in descriptions) {
+            var market_hash = descriptions[item]["market_hash_name"];
+            
+            //bugfix for v0.3.1
+            hash = hash.replace("%40", '@'); //replace %40 by @ for players within their name
+            //
+            
+            if(market_hash == hash || market_hash == decodeURI(hash)) {
+                document.getElementById(items[i].id).classList.remove("sticker-translucid");
+                countowned++;
+                break;
+            }
+            
+        }
+    }
+    document.getElementById("badge_"+window.LastCategory).innerHTML = countowned + "/" + items.length;
+    */
+    
 };

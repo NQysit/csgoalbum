@@ -50,3 +50,47 @@ body {
     font-size: small;
     position: absolute;
 }
+
+.divborder {
+    border: 1px solid #333;
+}
+
+.divinline {
+    display: inline-block;
+    padding: 0px;
+    margin: 3px;
+    border-spacing: 1px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.divprice {
+    text-align: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    float: right;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.divcount {
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    float: left;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.albumfieldset {
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+    text-align:center;
+}

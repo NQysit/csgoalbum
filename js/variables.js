@@ -7,6 +7,7 @@ window.inventoryloaded = false;
 window.currentinventory = null;
 window.animatedstickers = true;
 window.showprices = false;
+window.showcount = false;
 window.pricelist = null;
 window.exporting = false;
 
@@ -24,3 +25,4 @@ window.categories =
 
 window.cross = "http://crossorigin.me/";
 window.steammarket_url = "http://steamcommunity.com/market/listings/730/";
+window.workinganimation = "<i class='fa fa-spinner fa-pulse'></i> ";
