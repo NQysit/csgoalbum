@@ -20,5 +20,5 @@ window.categories =
 	'dhcluj2015foil': ["DreamHack Cluj-Napoca 2015 (Foil)"]
 };
 
-window.cross = "http://crossorigin.me/";
+window.cross = "https://crossorigin.me/";
 window.steammarket_url = "http://steamcommunity.com/market/listings/730/";
